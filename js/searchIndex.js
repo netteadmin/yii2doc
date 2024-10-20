@@ -341,6 +341,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-ActiveRecord.html"
         },                {
+            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-helper-ActiveRecord.html#method_init"
+        },                {
             "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003AbeforeSave\u0028\u0029",
             "name": "beforeSave",
             "summary": "",
@@ -370,6 +375,16 @@ Search.appendIndex(
             "name": "behaviors",
             "summary": "",
             "url": "classes/app-helper-ActiveRecord.html#method_behaviors"
+        },                {
+            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003Asave\u0028\u0029",
+            "name": "save",
+            "summary": "",
+            "url": "classes/app-helper-ActiveRecord.html#method_save"
+        },                {
+            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003AgetSymbol\u0028\u0029",
+            "name": "getSymbol",
+            "summary": "",
+            "url": "classes/app-helper-ActiveRecord.html#method_getSymbol"
         },                {
             "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003A\u0024multLang",
             "name": "multLang",
@@ -475,6 +490,11 @@ Search.appendIndex(
             "name": "Arr",
             "summary": "",
             "url": "classes/app-helper-Arr.html"
+        },                {
+            "fqsen": "\\app\\helper\\Arr\u003A\u003AtoXml\u0028\u0029",
+            "name": "toXml",
+            "summary": "\u6570\u7EC4\u8F6Cxml",
+            "url": "classes/app-helper-Arr.html#method_toXml"
         },                {
             "fqsen": "\\app\\helper\\Arr\u003A\u003AsortKeyByArray\u0028\u0029",
             "name": "sortKeyByArray",
@@ -986,6 +1006,21 @@ Search.appendIndex(
             "summary": "\u83B7\u53D6\u6587\u4EF6\u540D",
             "url": "classes/app-helper-File.html#method_getName"
         },                {
+            "fqsen": "\\PATH",
+            "name": "PATH",
+            "summary": "\u9879\u76EE\u76EE\u5F55",
+            "url": "namespaces/default.html#constant_PATH"
+        },                {
+            "fqsen": "\\WWW_PATH",
+            "name": "WWW_PATH",
+            "summary": "\u7F51\u7AD9\u76EE\u5F55",
+            "url": "namespaces/default.html#constant_WWW_PATH"
+        },                {
+            "fqsen": "\\UPLOAD_PATH",
+            "name": "UPLOAD_PATH",
+            "summary": "\u4E0A\u4F20\u76EE\u5F55",
+            "url": "namespaces/default.html#constant_UPLOAD_PATH"
+        },                {
             "fqsen": "\\data_log\u0028\u0029",
             "name": "data_log",
             "summary": "\u8BB0\u5F55\u6570\u636E\u65E5\u5FD7",
@@ -1018,22 +1053,22 @@ Search.appendIndex(
         },                {
             "fqsen": "\\add_css_file\u0028\u0029",
             "name": "add_css_file",
-            "summary": "",
+            "summary": "\u6DFB\u52A0css\u6587\u4EF6",
             "url": "namespaces/default.html#function_add_css_file"
         },                {
             "fqsen": "\\add_css\u0028\u0029",
             "name": "add_css",
-            "summary": "",
+            "summary": "\u6DFB\u52A0css\u4EE3\u7801",
             "url": "namespaces/default.html#function_add_css"
         },                {
             "fqsen": "\\add_js_file\u0028\u0029",
             "name": "add_js_file",
-            "summary": "",
+            "summary": "\u6DFB\u52A0js\u6587\u4EF6",
             "url": "namespaces/default.html#function_add_js_file"
         },                {
             "fqsen": "\\add_js\u0028\u0029",
             "name": "add_js",
-            "summary": "",
+            "summary": "\u6DFB\u52A0js\u4EE3\u7801",
             "url": "namespaces/default.html#function_add_js"
         },                {
             "fqsen": "\\add_job\u0028\u0029",
@@ -1053,12 +1088,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\add_language_router\u0028\u0029",
             "name": "add_language_router",
-            "summary": "\u8DEF\u7531",
+            "summary": "\u8DEF\u7531,\u5185\u90E8\u8C03\u7528",
             "url": "namespaces/default.html#function_add_language_router"
         },                {
             "fqsen": "\\default_router\u0028\u0029",
             "name": "default_router",
-            "summary": "",
+            "summary": "\u9ED8\u8BA4\u8DEF\u5F84\u0020\uFF0C,\u5185\u90E8\u8C03\u7528",
             "url": "namespaces/default.html#function_default_router"
         },                {
             "fqsen": "\\remove_cookie\u0028\u0029",
@@ -1088,7 +1123,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\pure_url\u0028\u0029",
             "name": "pure_url",
-            "summary": "pure_url",
+            "summary": "\u751F\u6210\u7EAF\u51C0\u0020pure_url\uFF0C\u4E0D\u5E26language",
             "url": "namespaces/default.html#function_pure_url"
         },                {
             "fqsen": "\\encode\u0028\u0029",
@@ -1103,7 +1138,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\get_config\u0028\u0029",
             "name": "get_config",
-            "summary": "\u83B7\u53D6\u914D\u7F6E",
+            "summary": "\u83B7\u53D6\u914D\u7F6E\u0020\u4F18\u5148\u4ECEparams.php\u83B7\u53D6\u0020\uFF0C\u6CA1\u6709\u7684\u8BDD\u53D6\u6570\u636E\u5E93",
             "url": "namespaces/default.html#function_get_config"
         },                {
             "fqsen": "\\set_config\u0028\u0029",
@@ -1135,6 +1170,11 @@ Search.appendIndex(
             "name": "get_param",
             "summary": "\u83B7\u53D6\u53C2\u6570",
             "url": "namespaces/default.html#function_get_param"
+        },                {
+            "fqsen": "\\set_param\u0028\u0029",
+            "name": "set_param",
+            "summary": "\u8BBE\u7F6E\u53C2\u6570",
+            "url": "namespaces/default.html#function_set_param"
         },                {
             "fqsen": "\\redirect\u0028\u0029",
             "name": "redirect",
@@ -1221,6 +1261,11 @@ Search.appendIndex(
             "summary": "\u8FD4\u56DEGET\u8BF7\u6C42\u53C2\u6570",
             "url": "namespaces/default.html#function_get_request_param"
         },                {
+            "fqsen": "\\oss_url\u0028\u0029",
+            "name": "oss_url",
+            "summary": "\u83B7\u53D6OSS\u5730\u5740",
+            "url": "namespaces/default.html#function_oss_url"
+        },                {
             "fqsen": "\\cdn_url\u0028\u0029",
             "name": "cdn_url",
             "summary": "\u83B7\u53D6CDN\u5730\u5740",
@@ -1248,13 +1293,18 @@ Search.appendIndex(
         },                {
             "fqsen": "\\download\u0028\u0029",
             "name": "download",
-            "summary": "\u4E0B\u8F7D\u6587\u4EF6\ndownload\u0028\u005B\n\u0020\u0020\u0020\u0020\u0027input\u0027\u0020\u003D\u003E\u0020\u0024url,\n\u0020\u0020\u0020\u0020\u0027output\u0027\u0020\u003D\u003E\u0020md5\u0028\u0024url\u0029.\u0027.mp4\u0027,\n\u0020\u0020\u0020\u0020\u0027mime\u0027\u003D\u003E\u005B\u0027image\/\u002A\u0027,\u0027video\/\u002A\u0027\u005D\n\u005D",
+            "summary": "\u4E0B\u8F7D\u6587\u4EF6\n\u003Ccode\u003E\ndownload\u0028\u005B\n\u0020\u0020\u0020\u0020\u0027input\u0027\u0020\u003D\u003E\u0020\u0024url,\u0020\/\/\u8FDC\u7A0B\u6587\u4EF6\n\u0020\u0020\u0020\u0020\u0027output\u0027\u0020\u003D\u003E\u0020md5\u0028\u0024url\u0029.\u0027.mp4\u0027,\n\u0020\u0020\u0020\u0020\u0027mime\u0027\u003D\u003E\u005B\u0027image\/\u002A\u0027,\u0027video\/\u002A\u0027\u005D\n\u005D\n\u003C\/code\u003E",
             "url": "namespaces/default.html#function_download"
         },                {
             "fqsen": "\\now\u0028\u0029",
             "name": "now",
-            "summary": "",
+            "summary": "\u5F53\u524D\u65F6\u95F4",
             "url": "namespaces/default.html#function_now"
+        },                {
+            "fqsen": "\\init_aliyun_sdk\u0028\u0029",
+            "name": "init_aliyun_sdk",
+            "summary": "\u521D\u59CB\u5316\u963F\u91CC\u4E91sdk\nAlibabaCloud\\Client\\AlibabaCloud",
+            "url": "namespaces/default.html#function_init_aliyun_sdk"
         },                {
             "fqsen": "\\app\\helper\\GridView",
             "name": "GridView",
@@ -1511,6 +1561,61 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-Str.html"
         },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AaddStar\u0028\u0029",
+            "name": "addStar",
+            "summary": "\u624B\u673A\u53F7\u6216\u90AE\u7BB1\u4E2D\u95F4\u52A0\u002A",
+            "url": "classes/app-helper-Str.html#method_addStar"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AgzEncode\u0028\u0029",
+            "name": "gzEncode",
+            "summary": "gz\u538B\u7F29",
+            "url": "classes/app-helper-Str.html#method_gzEncode"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AgetStrNumber\u0028\u0029",
+            "name": "getStrNumber",
+            "summary": "\u53D6\u5B57\u7B26\u4E2D\u7684\u6570\u5B57",
+            "url": "classes/app-helper-Str.html#method_getStrNumber"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AnumToChinese\u0028\u0029",
+            "name": "numToChinese",
+            "summary": "\u6570\u5B57\u8F6C\u4E2D\u6587\uFF0C\u975E\u91D1\u989D\u8BFB\u6CD5",
+            "url": "classes/app-helper-Str.html#method_numToChinese"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AgzDecode\u0028\u0029",
+            "name": "gzDecode",
+            "summary": "gz\u89E3\u538B",
+            "url": "classes/app-helper-Str.html#method_gzDecode"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AtextAddBr\u0028\u0029",
+            "name": "textAddBr",
+            "summary": "\u6253\u5370\u6392\u7248\uFF0C\u6587\u5B57\u52A0br",
+            "url": "classes/app-helper-Str.html#method_textAddBr"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AgetTextCenter\u0028\u0029",
+            "name": "getTextCenter",
+            "summary": "\u6253\u5370\u6392\u7248\uFF0C\u6587\u5B57\u5C45\u4E2D",
+            "url": "classes/app-helper-Str.html#method_getTextCenter"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AgetTextLr\u0028\u0029",
+            "name": "getTextLr",
+            "summary": "\u6253\u5370\u6392\u7248\uFF0C\u6587\u5B57\u6392\u7248\n\u5DE6\u0020\u4E2D\u0020\u53F3\n\u5DE6\u0020\u0020\u0020\u0020\u53F3",
+            "url": "classes/app-helper-Str.html#method_getTextLr"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AgetGbkLen\u0028\u0029",
+            "name": "getGbkLen",
+            "summary": "GBK\u957F\u5BBD\n2\u4E2A\u5B57\u7B26",
+            "url": "classes/app-helper-Str.html#method_getGbkLen"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AgbkSubstr\u0028\u0029",
+            "name": "gbkSubstr",
+            "summary": "GBK\u5B57\u7B26\u622A\u53D6\n\u4E00\u4E2A\u4E2D\u6587\u7B972\u4E2A\u5B57\u7B26",
+            "url": "classes/app-helper-Str.html#method_gbkSubstr"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AtoUtf8\u0028\u0029",
+            "name": "toUtf8",
+            "summary": "\u5B57\u7B26\u8F6CUTF8",
+            "url": "classes/app-helper-Str.html#method_toUtf8"
+        },                {
             "fqsen": "\\app\\helper\\Str\u003A\u003Adis\u0028\u0029",
             "name": "dis",
             "summary": "500m\u00201km\n1\u516C\u91CC",
@@ -1605,6 +1710,11 @@ Search.appendIndex(
             "name": "ago",
             "summary": "\u83B7\u53D6\u65F6\u95F4\u5DEE",
             "url": "classes/app-helper-Time.html#method_ago"
+        },                {
+            "fqsen": "\\app\\helper\\Time\u003A\u003Acompare\u0028\u0029",
+            "name": "compare",
+            "summary": "\u6BD4\u8F83\u65E5\u671F\u0020Y\u002Dm\u002Dd",
+            "url": "classes/app-helper-Time.html#method_compare"
         },                {
             "fqsen": "\\app\\helper\\TraitMenu",
             "name": "TraitMenu",
@@ -1741,6 +1851,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-UserController.html#property_needLogin"
         },                {
+            "fqsen": "\\app\\helper\\Video",
+            "name": "Video",
+            "summary": "",
+            "url": "classes/app-helper-Video.html"
+        },                {
+            "fqsen": "\\app\\helper\\Video\u003A\u003AgetTime\u0028\u0029",
+            "name": "getTime",
+            "summary": "\u83B7\u53D6\u672C\u5730\u97F3\u89C6\u9891\u65F6\u957F\nhttps\u003A\/\/github.com\/JamesHeinrich\/getID3\ncomposer\u0020require\u0020james\u002Dheinrich\/getid3",
+            "url": "classes/app-helper-Video.html#method_getTime"
+        },                {
+            "fqsen": "\\app\\helper\\Xml",
+            "name": "Xml",
+            "summary": "",
+            "url": "classes/app-helper-Xml.html"
+        },                {
+            "fqsen": "\\app\\helper\\Xml\u003A\u003AtoArray\u0028\u0029",
+            "name": "toArray",
+            "summary": "",
+            "url": "classes/app-helper-Xml.html#method_toArray"
+        },                {
+            "fqsen": "\\app\\helper\\Xml\u003A\u003Anode\u0028\u0029",
+            "name": "node",
+            "summary": "",
+            "url": "classes/app-helper-Xml.html#method_node"
+        },                {
             "fqsen": "\\app\\helper\\ZCurlAliyun",
             "name": "ZCurlAliyun",
             "summary": "\u963F\u91CC\u4E91\u5E02\u573A\u8BF7\u6C42",
@@ -1806,6 +1941,141 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-ZTianYanCha.html#property_url"
         },                {
+            "fqsen": "\\app\\widgets\\Alert",
+            "name": "Alert",
+            "summary": "Alert\u0020widget\u0020renders\u0020a\u0020message\u0020from\u0020session\u0020flash.\u0020All\u0020flash\u0020messages\u0020are\u0020displayed\nin\u0020the\u0020sequence\u0020they\u0020were\u0020assigned\u0020using\u0020setFlash.\u0020You\u0020can\u0020set\u0020message\u0020as\u0020following\u003A",
+            "url": "classes/app-widgets-Alert.html"
+        },                {
+            "fqsen": "\\app\\widgets\\Alert\u003A\u003Arun\u0028\u0029",
+            "name": "run",
+            "summary": "\u007B\u0040inheritdoc\u007D",
+            "url": "classes/app-widgets-Alert.html#method_run"
+        },                {
+            "fqsen": "\\app\\widgets\\Alert\u003A\u003A\u0024alertTypes",
+            "name": "alertTypes",
+            "summary": "",
+            "url": "classes/app-widgets-Alert.html#property_alertTypes"
+        },                {
+            "fqsen": "\\app\\widgets\\Alert\u003A\u003A\u0024closeButton",
+            "name": "closeButton",
+            "summary": "",
+            "url": "classes/app-widgets-Alert.html#property_closeButton"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor",
+            "name": "Editor",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor\u003A\u003Arun\u0028\u0029",
+            "name": "run",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html#method_run"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024model",
+            "name": "model",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html#property_model"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html#property_name"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024attribute",
+            "name": "attribute",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html#property_attribute"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024toolbar",
+            "name": "toolbar",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html#property_toolbar"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024value",
+            "name": "value",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html#property_value"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html#property_id"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024fullName",
+            "name": "fullName",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html#property_fullName"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024toolbarConfig",
+            "name": "toolbarConfig",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html#property_toolbarConfig"
+        },                {
+            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024toolbarType",
+            "name": "toolbarType",
+            "summary": "",
+            "url": "classes/app-widgets-Editor.html#property_toolbarType"
+        },                {
+            "fqsen": "\\app\\widgets\\Language",
+            "name": "Language",
+            "summary": "",
+            "url": "classes/app-widgets-Language.html"
+        },                {
+            "fqsen": "\\app\\widgets\\Language\u003A\u003Arun\u0028\u0029",
+            "name": "run",
+            "summary": "",
+            "url": "classes/app-widgets-Language.html#method_run"
+        },                {
+            "fqsen": "\\app\\widgets\\UploadImage",
+            "name": "UploadImage",
+            "summary": "",
+            "url": "classes/app-widgets-UploadImage.html"
+        },                {
+            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003Arun\u0028\u0029",
+            "name": "run",
+            "summary": "",
+            "url": "classes/app-widgets-UploadImage.html#method_run"
+        },                {
+            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024model",
+            "name": "model",
+            "summary": "",
+            "url": "classes/app-widgets-UploadImage.html#property_model"
+        },                {
+            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024value",
+            "name": "value",
+            "summary": "",
+            "url": "classes/app-widgets-UploadImage.html#property_value"
+        },                {
+            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/app-widgets-UploadImage.html#property_name"
+        },                {
+            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024attribute",
+            "name": "attribute",
+            "summary": "",
+            "url": "classes/app-widgets-UploadImage.html#property_attribute"
+        },                {
+            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024limit",
+            "name": "limit",
+            "summary": "",
+            "url": "classes/app-widgets-UploadImage.html#property_limit"
+        },                {
+            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024accept",
+            "name": "accept",
+            "summary": "",
+            "url": "classes/app-widgets-UploadImage.html#property_accept"
+        },                {
+            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/app-widgets-UploadImage.html#property_id"
+        },                {
+            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024muit",
+            "name": "muit",
+            "summary": "",
+            "url": "classes/app-widgets-UploadImage.html#property_muit"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
@@ -1825,5 +2095,10 @@ Search.appendIndex(
             "name": "helper",
             "summary": "",
             "url": "namespaces/app-helper.html"
+        },                {
+            "fqsen": "\\app\\widgets",
+            "name": "widgets",
+            "summary": "",
+            "url": "namespaces/app-widgets.html"
         }            ]
 );

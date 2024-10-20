@@ -68,6 +68,10 @@
                 <a href="namespaces/app-helper.html" class="">helper</a>
                 
             </li>
+                    <li>
+                <a href="namespaces/app-widgets.html" class="">widgets</a>
+                
+            </li>
             </ul>
 
                         </section>
@@ -126,6 +130,34 @@
 
 
 
+<h4 id="toc-constants">
+    Constants
+    <a href="namespaces/default.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_PATH">PATH</a>
+    <span>
+        &nbsp;= \realpath(__DIR__ . &#039;/..&#039;)                            </span>
+</dt>
+<dd>项目目录</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_UPLOAD_PATH">UPLOAD_PATH</a>
+    <span>
+        &nbsp;= \WWW_PATH . &#039;/uploads&#039;                            </span>
+</dt>
+<dd>上传目录</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="namespaces/default.html#constant_WWW_PATH">WWW_PATH</a>
+    <span>
+        &nbsp;= \PATH . &#039;/web&#039;                            </span>
+</dt>
+<dd>网站目录</dd>
+
+    </dl>
 
 
 
@@ -185,24 +217,28 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</dd>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
+<dd>添加css文件</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_add_css">add_css()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
+<dd>添加css代码</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_add_js_file">add_js_file()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
+<dd>添加js文件</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_add_js">add_js()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
+<dd>添加js代码</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_add_job">add_job()</a>
@@ -230,13 +266,14 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</dd>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
-<dd>路由</dd>
+<dd>路由,内部调用</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_default_router">default_router()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
+<dd>默认路径 ，,内部调用</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_remove_cookie">remove_cookie()</a>
@@ -278,7 +315,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</dd>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
-<dd>pure_url</dd>
+<dd>生成纯净 pure_url，不带language</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_encode">encode()</a>
@@ -299,7 +336,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</dd>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
-<dd>获取配置</dd>
+<dd>获取配置 优先从params.php获取 ，没有的话取数据库</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_set_config">set_config()</a>
@@ -341,6 +378,13 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</dd>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>获取参数</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a class="" href="namespaces/default.html#function_set_param">set_param()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>设置参数</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_redirect">redirect()</a>
@@ -463,6 +507,13 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</dd>
 <dd>返回GET请求参数</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a class="" href="namespaces/default.html#function_oss_url">oss_url()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>获取OSS地址</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_cdn_url">cdn_url()</a>
     <span>
                                 &nbsp;: mixed    </span>
@@ -501,21 +552,135 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</dd>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>下载文件
+&lt;code&gt;
 download([
-    &#039;input&#039; =&gt; $url,
+    &#039;input&#039; =&gt; $url, //远程文件
     &#039;output&#039; =&gt; md5($url).&#039;.mp4&#039;,
     &#039;mime&#039;=&gt;[&#039;image/*&#039;,&#039;video/*&#039;]
-]</dd>
+]
+&lt;/code&gt;</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -function -">
     <a class="" href="namespaces/default.html#function_now">now()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
+<dd>当前时间</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a class="" href="namespaces/default.html#function_init_aliyun_sdk">init_aliyun_sdk()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>初始化阿里云sdk
+AlibabaCloud\Client\AlibabaCloud</dd>
 
     </dl>
 
         
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="namespaces/default.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_PATH">
+        PATH
+        <a href="namespaces/default.html#constant_PATH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">项目目录</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">PATH</span>
+    = <span class="phpdocumentor-signature__default-value">\realpath(__DIR__ . &#039;/..&#039;)</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_UPLOAD_PATH">
+        UPLOAD_PATH
+        <a href="namespaces/default.html#constant_UPLOAD_PATH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">上传目录</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">UPLOAD_PATH</span>
+    = <span class="phpdocumentor-signature__default-value">\WWW_PATH . &#039;/uploads&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_WWW_PATH">
+        WWW_PATH
+        <a href="namespaces/default.html#constant_WWW_PATH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">网站目录</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">WWW_PATH</span>
+    = <span class="phpdocumentor-signature__default-value">\PATH . &#039;/web&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-functions">
         <h3 class="phpdocumentor-elements__header" id="functions">
@@ -532,7 +697,7 @@ download([
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">9</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -582,7 +747,7 @@ download([
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -608,7 +773,7 @@ download([
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
@@ -644,7 +809,7 @@ download([
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">73</span>
 
     </aside>
 
@@ -694,7 +859,7 @@ download([
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">84</span>
 
     </aside>
 
@@ -731,7 +896,7 @@ publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">94</span>
 
     </aside>
 
@@ -768,11 +933,12 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">添加css文件</p>
+
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
@@ -786,7 +952,9 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>路径</p>
+</section>
+
             </dd>
             </dl>
 
@@ -803,11 +971,12 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">86</span>
+    <span class="phpdocumentor-element-found-in__line">110</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">添加css代码</p>
+
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
@@ -821,7 +990,9 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>代码</p>
+</section>
+
             </dd>
             </dl>
 
@@ -838,11 +1009,12 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">90</span>
+    <span class="phpdocumentor-element-found-in__line">119</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">添加js文件</p>
+
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
@@ -856,14 +1028,18 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>文件路径</p>
+</section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$name</span>
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                  = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>唯一值</p>
+</section>
+
             </dd>
             </dl>
 
@@ -880,11 +1056,12 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">94</span>
+    <span class="phpdocumentor-element-found-in__line">127</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">添加js代码</p>
+
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
@@ -898,7 +1075,9 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>代码</p>
+</section>
+
             </dd>
             </dl>
 
@@ -915,7 +1094,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">104</span>
+    <span class="phpdocumentor-element-found-in__line">137</span>
 
     </aside>
 
@@ -958,7 +1137,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">124</span>
+    <span class="phpdocumentor-element-found-in__line">161</span>
 
     </aside>
 
@@ -1008,7 +1187,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">146</span>
+    <span class="phpdocumentor-element-found-in__line">183</span>
 
     </aside>
 
@@ -1058,11 +1237,11 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">168</span>
+    <span class="phpdocumentor-element-found-in__line">205</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">路由</p>
+        <p class="phpdocumentor-summary">路由,内部调用</p>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -1094,11 +1273,12 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">186</span>
+    <span class="phpdocumentor-element-found-in__line">226</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">默认路径 ，,内部调用</p>
+
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
@@ -1119,7 +1299,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">199</span>
+    <span class="phpdocumentor-element-found-in__line">240</span>
 
     </aside>
 
@@ -1155,7 +1335,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">206</span>
+    <span class="phpdocumentor-element-found-in__line">248</span>
 
     </aside>
 
@@ -1191,7 +1371,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">213</span>
+    <span class="phpdocumentor-element-found-in__line">258</span>
 
     </aside>
 
@@ -1224,7 +1404,9 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                  = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>0</p>
+</section>
+
             </dd>
             </dl>
 
@@ -1241,7 +1423,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">225</span>
+    <span class="phpdocumentor-element-found-in__line">270</span>
 
     </aside>
 
@@ -1267,7 +1449,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">232</span>
+    <span class="phpdocumentor-element-found-in__line">277</span>
 
     </aside>
 
@@ -1317,11 +1499,11 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">239</span>
+    <span class="phpdocumentor-element-found-in__line">284</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">pure_url</p>
+        <p class="phpdocumentor-summary">生成纯净 pure_url，不带language</p>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -1360,7 +1542,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">246</span>
+    <span class="phpdocumentor-element-found-in__line">292</span>
 
     </aside>
 
@@ -1379,7 +1561,9 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
                 : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>数组|字符串</p>
+</section>
+
             </dd>
             </dl>
 
@@ -1396,7 +1580,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">257</span>
+    <span class="phpdocumentor-element-found-in__line">304</span>
 
     </aside>
 
@@ -1432,11 +1616,11 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">267</span>
+    <span class="phpdocumentor-element-found-in__line">315</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">获取配置</p>
+        <p class="phpdocumentor-summary">获取配置 优先从params.php获取 ，没有的话取数据库</p>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -1468,7 +1652,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">274</span>
+    <span class="phpdocumentor-element-found-in__line">326</span>
 
     </aside>
 
@@ -1511,7 +1695,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">281</span>
+    <span class="phpdocumentor-element-found-in__line">334</span>
 
     </aside>
 
@@ -1547,7 +1731,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">293</span>
+    <span class="phpdocumentor-element-found-in__line">346</span>
 
     </aside>
 
@@ -1590,7 +1774,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">304</span>
+    <span class="phpdocumentor-element-found-in__line">357</span>
 
     </aside>
 
@@ -1625,7 +1809,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">313</span>
+    <span class="phpdocumentor-element-found-in__line">366</span>
 
     </aside>
 
@@ -1668,7 +1852,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">320</span>
+    <span class="phpdocumentor-element-found-in__line">374</span>
 
     </aside>
 
@@ -1696,6 +1880,49 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     
 </article>
                     <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_set_param">
+        set_param()
+        <a href="namespaces/default.html#function_set_param" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">383</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">设置参数</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">set_param</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$str</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$val</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$str</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$val</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
     <h4 class="phpdocumentor-element__name" id="function_redirect">
         redirect()
         <a href="namespaces/default.html#function_redirect" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1704,7 +1931,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">328</span>
+    <span class="phpdocumentor-element-found-in__line">391</span>
 
     </aside>
 
@@ -1748,7 +1975,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">342</span>
+    <span class="phpdocumentor-element-found-in__line">405</span>
 
     </aside>
 
@@ -1784,7 +2011,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">349</span>
+    <span class="phpdocumentor-element-found-in__line">412</span>
 
     </aside>
 
@@ -1820,7 +2047,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">356</span>
+    <span class="phpdocumentor-element-found-in__line">419</span>
 
     </aside>
 
@@ -1846,7 +2073,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">363</span>
+    <span class="phpdocumentor-element-found-in__line">426</span>
 
     </aside>
 
@@ -1872,7 +2099,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">373</span>
+    <span class="phpdocumentor-element-found-in__line">436</span>
 
     </aside>
 
@@ -1915,7 +2142,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">386</span>
+    <span class="phpdocumentor-element-found-in__line">449</span>
 
     </aside>
 
@@ -1958,7 +2185,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">404</span>
+    <span class="phpdocumentor-element-found-in__line">467</span>
 
     </aside>
 
@@ -2001,7 +2228,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">415</span>
+    <span class="phpdocumentor-element-found-in__line">478</span>
 
     </aside>
 
@@ -2044,7 +2271,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">429</span>
+    <span class="phpdocumentor-element-found-in__line">492</span>
 
     </aside>
 
@@ -2094,7 +2321,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">437</span>
+    <span class="phpdocumentor-element-found-in__line">500</span>
 
     </aside>
 
@@ -2130,7 +2357,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">445</span>
+    <span class="phpdocumentor-element-found-in__line">508</span>
 
     </aside>
 
@@ -2166,7 +2393,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">456</span>
+    <span class="phpdocumentor-element-found-in__line">519</span>
 
     </aside>
 
@@ -2209,7 +2436,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">480</span>
+    <span class="phpdocumentor-element-found-in__line">543</span>
 
     </aside>
 
@@ -2296,7 +2523,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">500</span>
+    <span class="phpdocumentor-element-found-in__line">563</span>
 
     </aside>
 
@@ -2339,7 +2566,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">518</span>
+    <span class="phpdocumentor-element-found-in__line">581</span>
 
     </aside>
 
@@ -2375,7 +2602,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">535</span>
+    <span class="phpdocumentor-element-found-in__line">598</span>
 
     </aside>
 
@@ -2403,6 +2630,42 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     
 </article>
                     <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_oss_url">
+        oss_url()
+        <a href="namespaces/default.html#function_oss_url" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">616</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">获取OSS地址</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">oss_url</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$url</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$url</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
     <h4 class="phpdocumentor-element__name" id="function_cdn_url">
         cdn_url()
         <a href="namespaces/default.html#function_cdn_url" class="headerlink"><i class="fas fa-link"></i></a>
@@ -2411,7 +2674,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">553</span>
+    <span class="phpdocumentor-element-found-in__line">624</span>
 
     </aside>
 
@@ -2447,7 +2710,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">560</span>
+    <span class="phpdocumentor-element-found-in__line">631</span>
 
     </aside>
 
@@ -2482,7 +2745,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">574</span>
+    <span class="phpdocumentor-element-found-in__line">645</span>
 
     </aside>
 
@@ -2525,7 +2788,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">597</span>
+    <span class="phpdocumentor-element-found-in__line">668</span>
 
     </aside>
 
@@ -2550,7 +2813,7 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">610</span>
+    <span class="phpdocumentor-element-found-in__line">681</span>
 
     </aside>
 
@@ -2586,16 +2849,18 @@ get_publish(&#039;@app/modules/webim/assets&#039;)</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">622</span>
+    <span class="phpdocumentor-element-found-in__line">695</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">下载文件
+&lt;code&gt;
 download([
-    &#039;input&#039; =&gt; $url,
+    &#039;input&#039; =&gt; $url, //远程文件
     &#039;output&#039; =&gt; md5($url).&#039;.mp4&#039;,
     &#039;mime&#039;=&gt;[&#039;image/*&#039;,&#039;video/*&#039;]
-]</p>
+]
+&lt;/code&gt;</p>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -2634,15 +2899,43 @@ download([
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">630</span>
+    <span class="phpdocumentor-element-found-in__line">705</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">当前时间</p>
+
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility"></span>
                     <span class="phpdocumentor-signature__name">now</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_init_aliyun_sdk">
+        init_aliyun_sdk()
+        <a href="namespaces/default.html#function_init_aliyun_sdk" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/function.php"><a href="files/yii2-helper-function.html"><abbr title="yii2/helper/function.php">function.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">713</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">初始化阿里云sdk
+AlibabaCloud\Client\AlibabaCloud</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">init_aliyun_sdk</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     
     
