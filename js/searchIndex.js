@@ -141,10 +141,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-ActiveRecord-Status.html#method_getStatusOptions"
         },                {
+            "fqsen": "\\app\\ActiveRecord\\Status\u003A\u003AgetStatus_txt\u0028\u0029",
+            "name": "getStatus_txt",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Status.html#method_getStatus_txt"
+        },                {
             "fqsen": "\\app\\ActiveRecord\\Status\u003A\u003AgetStatusTxt\u0028\u0029",
             "name": "getStatusTxt",
             "summary": "",
             "url": "classes/app-ActiveRecord-Status.html#method_getStatusTxt"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Status\u003A\u003AgetStatus_color\u0028\u0029",
+            "name": "getStatus_color",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Status.html#method_getStatus_color"
         },                {
             "fqsen": "\\app\\ActiveRecord\\Status\u003A\u003AgetStatusColor\u0028\u0029",
             "name": "getStatusColor",
@@ -181,65 +191,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-Acl.html"
         },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003AgetActive\u0028\u0029",
-            "name": "getActive",
-            "summary": "\u83B7\u53D6\u5F53\u524D\u6FC0\u6D3B\u7684\u6743\u9650",
-            "url": "classes/app-helper-Acl.html#method_getActive"
-        },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003AaddActive\u0028\u0029",
-            "name": "addActive",
-            "summary": "\u6DFB\u52A0\u6FC0\u6D3B\u7684\u6743\u9650",
-            "url": "classes/app-helper-Acl.html#method_addActive"
-        },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003AcheckAction\u0028\u0029",
-            "name": "checkAction",
-            "summary": "\u68C0\u6D4B\u5F53\u524D\u65B9\u6CD5\u6743\u9650",
-            "url": "classes/app-helper-Acl.html#method_checkAction"
-        },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003AgetUser\u0028\u0029",
-            "name": "getUser",
-            "summary": "\u53D6\u767B\u5F55\u7528\u6237\u4FE1\u606F",
-            "url": "classes/app-helper-Acl.html#method_getUser"
-        },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003AisSupper\u0028\u0029",
-            "name": "isSupper",
-            "summary": "\u662F\u5426\u662F\u8D85\u7EA7\u7BA1\u7406\u5458",
-            "url": "classes/app-helper-Acl.html#method_isSupper"
-        },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003AsupperId\u0028\u0029",
-            "name": "supperId",
-            "summary": "\u8D85\u7EA7\u7BA1\u7406\u5458id",
-            "url": "classes/app-helper-Acl.html#method_supperId"
-        },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003Acheck\u0028\u0029",
-            "name": "check",
-            "summary": "\u68C0\u6D4B\u6743\u9650",
-            "url": "classes/app-helper-Acl.html#method_check"
-        },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "\u83B7\u53D6\u6743\u9650\u5217\u8868",
-            "url": "classes/app-helper-Acl.html#method_get"
-        },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003Aadd\u0028\u0029",
-            "name": "add",
-            "summary": "\u6DFB\u52A0\u6743\u9650",
-            "url": "classes/app-helper-Acl.html#method_add"
-        },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003A\u0024_acl",
-            "name": "_acl",
-            "summary": "",
-            "url": "classes/app-helper-Acl.html#property__acl"
-        },                {
             "fqsen": "\\app\\helper\\Acl\u003A\u003A\u0024tag",
             "name": "tag",
             "summary": "",
             "url": "classes/app-helper-Acl.html#property_tag"
-        },                {
-            "fqsen": "\\app\\helper\\Acl\u003A\u003A\u0024active",
-            "name": "active",
-            "summary": "",
-            "url": "classes/app-helper-Acl.html#property_active"
         },                {
             "fqsen": "\\app\\helper\\Action",
             "name": "Action",
@@ -631,6 +586,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-BaseController.html#property_checkAcl"
         },                {
+            "fqsen": "\\app\\helper\\BaseController\u003A\u003A\u0024aclClass",
+            "name": "aclClass",
+            "summary": "",
+            "url": "classes/app-helper-BaseController.html#property_aclClass"
+        },                {
             "fqsen": "\\app\\helper\\BaseController\u003A\u003A\u0024needLogin",
             "name": "needLogin",
             "summary": "",
@@ -841,16 +801,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-Dir.html"
         },                {
-            "fqsen": "\\app\\helper\\Dir\u003A\u003AgetUploadedFile\u0028\u0029",
-            "name": "getUploadedFile",
-            "summary": "\u53D6\u4E0A\u4F20\u6587\u4EF6\u7684\u5B8C\u6574\u8DEF\u5F84",
-            "url": "classes/app-helper-Dir.html#method_getUploadedFile"
-        },                {
-            "fqsen": "\\app\\helper\\Dir\u003A\u003AcreateUploadDir\u0028\u0029",
-            "name": "createUploadDir",
-            "summary": "\u521B\u5EFAyii\u4E0A\u4F20\u76EE\u5F55",
-            "url": "classes/app-helper-Dir.html#method_createUploadDir"
-        },                {
             "fqsen": "\\app\\helper\\Dir\u003A\u003Acreate\u0028\u0029",
             "name": "create",
             "summary": "\u521B\u5EFA\u76EE\u5F55",
@@ -860,16 +810,6 @@ Search.appendIndex(
             "name": "getDeep",
             "summary": "\u83B7\u53D6\u76EE\u5F55\u4E0B\u7684\u6240\u6709\u6587\u4EF6",
             "url": "classes/app-helper-Dir.html#method_getDeep"
-        },                {
-            "fqsen": "\\app\\helper\\Dir\u003A\u003A\u0024uploadDir",
-            "name": "uploadDir",
-            "summary": "",
-            "url": "classes/app-helper-Dir.html#property_uploadDir"
-        },                {
-            "fqsen": "\\app\\helper\\Dir\u003A\u003A\u0024uploadedFile",
-            "name": "uploadedFile",
-            "summary": "",
-            "url": "classes/app-helper-Dir.html#property_uploadedFile"
         },                {
             "fqsen": "\\app\\helper\\Download",
             "name": "Download",
@@ -1306,6 +1246,16 @@ Search.appendIndex(
             "summary": "\u521D\u59CB\u5316\u963F\u91CC\u4E91sdk\nAlibabaCloud\\Client\\AlibabaCloud",
             "url": "namespaces/default.html#function_init_aliyun_sdk"
         },                {
+            "fqsen": "\\is_admin\u0028\u0029",
+            "name": "is_admin",
+            "summary": "\u662F\u5426\u662F\u7BA1\u7406\u5458",
+            "url": "namespaces/default.html#function_is_admin"
+        },                {
+            "fqsen": "\\get_private_upload_url\u0028\u0029",
+            "name": "get_private_upload_url",
+            "summary": "\u83B7\u53D6\u79C1\u6709\u4E0A\u4F20\u5730\u5740",
+            "url": "namespaces/default.html#function_get_private_upload_url"
+        },                {
             "fqsen": "\\app\\helper\\GridView",
             "name": "GridView",
             "summary": "",
@@ -1471,6 +1421,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-Request.html#method_trimArray"
         },                {
+            "fqsen": "\\app\\helper\\SellerAcl",
+            "name": "SellerAcl",
+            "summary": "",
+            "url": "classes/app-helper-SellerAcl.html"
+        },                {
+            "fqsen": "\\app\\helper\\SellerAcl\u003A\u003AisSupper\u0028\u0029",
+            "name": "isSupper",
+            "summary": "\u662F\u5426\u662F\u8D85\u7EA7\u7BA1\u7406\u5458",
+            "url": "classes/app-helper-SellerAcl.html#method_isSupper"
+        },                {
+            "fqsen": "\\app\\helper\\SellerAcl\u003A\u003AsupperId\u0028\u0029",
+            "name": "supperId",
+            "summary": "\u8D85\u7EA7\u7BA1\u7406\u5458id",
+            "url": "classes/app-helper-SellerAcl.html#method_supperId"
+        },                {
+            "fqsen": "\\app\\helper\\SellerAcl\u003A\u003A\u0024tag",
+            "name": "tag",
+            "summary": "",
+            "url": "classes/app-helper-SellerAcl.html#property_tag"
+        },                {
             "fqsen": "\\app\\helper\\SellerActionColumn",
             "name": "SellerActionColumn",
             "summary": "",
@@ -1555,6 +1525,96 @@ Search.appendIndex(
             "name": "send",
             "summary": "",
             "url": "classes/app-helper-Sms.html#method_send"
+        },                {
+            "fqsen": "\\app\\helper\\StoreAcl",
+            "name": "StoreAcl",
+            "summary": "",
+            "url": "classes/app-helper-StoreAcl.html"
+        },                {
+            "fqsen": "\\app\\helper\\StoreAcl\u003A\u003AisSupper\u0028\u0029",
+            "name": "isSupper",
+            "summary": "\u662F\u5426\u662F\u8D85\u7EA7\u7BA1\u7406\u5458",
+            "url": "classes/app-helper-StoreAcl.html#method_isSupper"
+        },                {
+            "fqsen": "\\app\\helper\\StoreAcl\u003A\u003AsupperId\u0028\u0029",
+            "name": "supperId",
+            "summary": "\u8D85\u7EA7\u7BA1\u7406\u5458id",
+            "url": "classes/app-helper-StoreAcl.html#method_supperId"
+        },                {
+            "fqsen": "\\app\\helper\\StoreAcl\u003A\u003A\u0024tag",
+            "name": "tag",
+            "summary": "",
+            "url": "classes/app-helper-StoreAcl.html#property_tag"
+        },                {
+            "fqsen": "\\app\\helper\\StoreActionColumn",
+            "name": "StoreActionColumn",
+            "summary": "",
+            "url": "classes/app-helper-StoreActionColumn.html"
+        },                {
+            "fqsen": "\\app\\helper\\StoreActionColumn\u003A\u003Acheck\u0028\u0029",
+            "name": "check",
+            "summary": "",
+            "url": "classes/app-helper-StoreActionColumn.html#method_check"
+        },                {
+            "fqsen": "\\app\\helper\\StoreActionColumn\u003A\u003AinitDefaultButtons\u0028\u0029",
+            "name": "initDefaultButtons",
+            "summary": "\u4FEE\u6539\u64CD\u4F5C\u6309\u94AE",
+            "url": "classes/app-helper-StoreActionColumn.html#method_initDefaultButtons"
+        },                {
+            "fqsen": "\\app\\helper\\StoreController",
+            "name": "StoreController",
+            "summary": "",
+            "url": "classes/app-helper-StoreController.html"
+        },                {
+            "fqsen": "\\app\\helper\\StoreController\u003A\u003AbeforeAction\u0028\u0029",
+            "name": "beforeAction",
+            "summary": "",
+            "url": "classes/app-helper-StoreController.html#method_beforeAction"
+        },                {
+            "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024loginedTag",
+            "name": "loginedTag",
+            "summary": "",
+            "url": "classes/app-helper-StoreController.html#property_loginedTag"
+        },                {
+            "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024aclClass",
+            "name": "aclClass",
+            "summary": "",
+            "url": "classes/app-helper-StoreController.html#property_aclClass"
+        },                {
+            "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024checkAcl",
+            "name": "checkAcl",
+            "summary": "",
+            "url": "classes/app-helper-StoreController.html#property_checkAcl"
+        },                {
+            "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024layout_name",
+            "name": "layout_name",
+            "summary": "",
+            "url": "classes/app-helper-StoreController.html#property_layout_name"
+        },                {
+            "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024theme_name",
+            "name": "theme_name",
+            "summary": "",
+            "url": "classes/app-helper-StoreController.html#property_theme_name"
+        },                {
+            "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024store_id",
+            "name": "store_id",
+            "summary": "",
+            "url": "classes/app-helper-StoreController.html#property_store_id"
+        },                {
+            "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024needLogin",
+            "name": "needLogin",
+            "summary": "",
+            "url": "classes/app-helper-StoreController.html#property_needLogin"
+        },                {
+            "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024store",
+            "name": "store",
+            "summary": "",
+            "url": "classes/app-helper-StoreController.html#property_store"
+        },                {
+            "fqsen": "\\app\\helper\\StoreMenu",
+            "name": "StoreMenu",
+            "summary": "",
+            "url": "classes/app-helper-StoreMenu.html"
         },                {
             "fqsen": "\\app\\helper\\Str",
             "name": "Str",
@@ -1655,6 +1715,11 @@ Search.appendIndex(
             "name": "toArray",
             "summary": "\u5B57\u7B26\u4E32\u8F6C\u6570\u7EC4",
             "url": "classes/app-helper-Str.html#method_toArray"
+        },                {
+            "fqsen": "\\app\\helper\\Str\u003A\u003AendsWith\u0028\u0029",
+            "name": "endsWith",
+            "summary": "\u5B57\u7B26\u4E32\u7ED3\u5C3E",
+            "url": "classes/app-helper-Str.html#method_endsWith"
         },                {
             "fqsen": "\\app\\helper\\Time",
             "name": "Time",
@@ -1761,6 +1826,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-Uploader.html#method_actionHash"
         },                {
+            "fqsen": "\\app\\helper\\Uploader\u003A\u003AgetUploadUrl\u0028\u0029",
+            "name": "getUploadUrl",
+            "summary": "",
+            "url": "classes/app-helper-Uploader.html#method_getUploadUrl"
+        },                {
             "fqsen": "\\app\\helper\\Uploader\u003A\u003AactionUpload\u0028\u0029",
             "name": "actionUpload",
             "summary": "",
@@ -1780,6 +1850,11 @@ Search.appendIndex(
             "name": "allowMimeDefault",
             "summary": "",
             "url": "classes/app-helper-Uploader.html#property_allowMimeDefault"
+        },                {
+            "fqsen": "\\app\\helper\\Uploader\u003A\u003A\u0024saveFilePath",
+            "name": "saveFilePath",
+            "summary": "",
+            "url": "classes/app-helper-Uploader.html#property_saveFilePath"
         },                {
             "fqsen": "\\app\\helper\\Url",
             "name": "Url",
@@ -1941,141 +2016,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-ZTianYanCha.html#property_url"
         },                {
-            "fqsen": "\\app\\widgets\\Alert",
-            "name": "Alert",
-            "summary": "Alert\u0020widget\u0020renders\u0020a\u0020message\u0020from\u0020session\u0020flash.\u0020All\u0020flash\u0020messages\u0020are\u0020displayed\nin\u0020the\u0020sequence\u0020they\u0020were\u0020assigned\u0020using\u0020setFlash.\u0020You\u0020can\u0020set\u0020message\u0020as\u0020following\u003A",
-            "url": "classes/app-widgets-Alert.html"
-        },                {
-            "fqsen": "\\app\\widgets\\Alert\u003A\u003Arun\u0028\u0029",
-            "name": "run",
-            "summary": "\u007B\u0040inheritdoc\u007D",
-            "url": "classes/app-widgets-Alert.html#method_run"
-        },                {
-            "fqsen": "\\app\\widgets\\Alert\u003A\u003A\u0024alertTypes",
-            "name": "alertTypes",
-            "summary": "",
-            "url": "classes/app-widgets-Alert.html#property_alertTypes"
-        },                {
-            "fqsen": "\\app\\widgets\\Alert\u003A\u003A\u0024closeButton",
-            "name": "closeButton",
-            "summary": "",
-            "url": "classes/app-widgets-Alert.html#property_closeButton"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor",
-            "name": "Editor",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor\u003A\u003Arun\u0028\u0029",
-            "name": "run",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html#method_run"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024model",
-            "name": "model",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html#property_model"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024name",
-            "name": "name",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html#property_name"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024attribute",
-            "name": "attribute",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html#property_attribute"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024toolbar",
-            "name": "toolbar",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html#property_toolbar"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024value",
-            "name": "value",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html#property_value"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024id",
-            "name": "id",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html#property_id"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024fullName",
-            "name": "fullName",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html#property_fullName"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024toolbarConfig",
-            "name": "toolbarConfig",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html#property_toolbarConfig"
-        },                {
-            "fqsen": "\\app\\widgets\\Editor\u003A\u003A\u0024toolbarType",
-            "name": "toolbarType",
-            "summary": "",
-            "url": "classes/app-widgets-Editor.html#property_toolbarType"
-        },                {
-            "fqsen": "\\app\\widgets\\Language",
-            "name": "Language",
-            "summary": "",
-            "url": "classes/app-widgets-Language.html"
-        },                {
-            "fqsen": "\\app\\widgets\\Language\u003A\u003Arun\u0028\u0029",
-            "name": "run",
-            "summary": "",
-            "url": "classes/app-widgets-Language.html#method_run"
-        },                {
-            "fqsen": "\\app\\widgets\\UploadImage",
-            "name": "UploadImage",
-            "summary": "",
-            "url": "classes/app-widgets-UploadImage.html"
-        },                {
-            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003Arun\u0028\u0029",
-            "name": "run",
-            "summary": "",
-            "url": "classes/app-widgets-UploadImage.html#method_run"
-        },                {
-            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024model",
-            "name": "model",
-            "summary": "",
-            "url": "classes/app-widgets-UploadImage.html#property_model"
-        },                {
-            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024value",
-            "name": "value",
-            "summary": "",
-            "url": "classes/app-widgets-UploadImage.html#property_value"
-        },                {
-            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024name",
-            "name": "name",
-            "summary": "",
-            "url": "classes/app-widgets-UploadImage.html#property_name"
-        },                {
-            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024attribute",
-            "name": "attribute",
-            "summary": "",
-            "url": "classes/app-widgets-UploadImage.html#property_attribute"
-        },                {
-            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024limit",
-            "name": "limit",
-            "summary": "",
-            "url": "classes/app-widgets-UploadImage.html#property_limit"
-        },                {
-            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024accept",
-            "name": "accept",
-            "summary": "",
-            "url": "classes/app-widgets-UploadImage.html#property_accept"
-        },                {
-            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024id",
-            "name": "id",
-            "summary": "",
-            "url": "classes/app-widgets-UploadImage.html#property_id"
-        },                {
-            "fqsen": "\\app\\widgets\\UploadImage\u003A\u003A\u0024muit",
-            "name": "muit",
-            "summary": "",
-            "url": "classes/app-widgets-UploadImage.html#property_muit"
-        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
@@ -2095,10 +2035,5 @@ Search.appendIndex(
             "name": "helper",
             "summary": "",
             "url": "namespaces/app-helper.html"
-        },                {
-            "fqsen": "\\app\\widgets",
-            "name": "widgets",
-            "summary": "",
-            "url": "namespaces/app-widgets.html"
         }            ]
 );
