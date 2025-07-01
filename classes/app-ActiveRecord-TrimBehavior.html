@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
@@ -64,7 +65,15 @@
                 
             </li>
                     <li>
+                <a href="namespaces/app-components.html" class="">components</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/app-helper.html" class="">helper</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/app-pack.html" class="">pack</a>
                 
             </li>
             </ul>
@@ -122,9 +131,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/ActiveRecord/TrimBehavior.php"><a href="files/yii2-activerecord-trimbehavior.html"><abbr title="yii2/ActiveRecord/TrimBehavior.php">TrimBehavior.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="ActiveRecord/TrimBehavior.php"><a href="files/activerecord-trimbehavior.html"><abbr title="ActiveRecord/TrimBehavior.php">TrimBehavior.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">8</span>
 
     </aside>
 
@@ -151,6 +160,25 @@
 
 
 
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/app-ActiveRecord-TrimBehavior.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/app-ActiveRecord-TrimBehavior.html#property_attributes">$attributes</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/app-ActiveRecord-TrimBehavior.html#property_excludeAttributes">$excludeAttributes</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+    </dl>
 
 <h4 id="toc-methods">
     Methods
@@ -161,14 +189,23 @@
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/app-ActiveRecord-TrimBehavior.html#method_events">events()</a>
     <span>
-                                &nbsp;: mixed    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
+<dd>定义事件绑定，修剪操作在插入或更新前触发</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/app-ActiveRecord-TrimBehavior.html#method_trimAttributes">trimAttributes()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
+<dd>修剪模型的属性值</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/app-ActiveRecord-TrimBehavior.html#method_trimValue">trimValue()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>递归修剪值，支持字符串、数字和数组</dd>
 
     </dl>
 
@@ -177,6 +214,89 @@
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/app-ActiveRecord-TrimBehavior.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_attributes">
+        $attributes
+        <a href="classes/app-ActiveRecord-TrimBehavior.html#property_attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="ActiveRecord/TrimBehavior.php"><a href="files/activerecord-trimbehavior.html"><abbr title="ActiveRecord/TrimBehavior.php">TrimBehavior.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">11</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$attributes</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_excludeAttributes">
+        $excludeAttributes
+        <a href="classes/app-ActiveRecord-TrimBehavior.html#property_excludeAttributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="ActiveRecord/TrimBehavior.php"><a href="files/activerecord-trimbehavior.html"><abbr title="ActiveRecord/TrimBehavior.php">TrimBehavior.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$excludeAttributes</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
@@ -196,16 +316,17 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/ActiveRecord/TrimBehavior.php"><a href="files/yii2-activerecord-trimbehavior.html"><abbr title="yii2/ActiveRecord/TrimBehavior.php">TrimBehavior.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="ActiveRecord/TrimBehavior.php"><a href="files/activerecord-trimbehavior.html"><abbr title="ActiveRecord/TrimBehavior.php">TrimBehavior.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">定义事件绑定，修剪操作在插入或更新前触发</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">events</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">events</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -216,7 +337,15 @@
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>事件映射</p>
+</section>
+
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -230,16 +359,17 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/ActiveRecord/TrimBehavior.php"><a href="files/yii2-activerecord-trimbehavior.html"><abbr title="yii2/ActiveRecord/TrimBehavior.php">TrimBehavior.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="ActiveRecord/TrimBehavior.php"><a href="files/activerecord-trimbehavior.html"><abbr title="ActiveRecord/TrimBehavior.php">TrimBehavior.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">修剪模型的属性值</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">trimAttributes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$event</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">trimAttributes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\yii\base\Event">Event</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$event</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -249,10 +379,12 @@
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$event</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\yii\base\Event">Event</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>事件对象</p>
+</section>
+
             </dd>
             </dl>
 
@@ -262,13 +394,68 @@
 
     
 </article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_trimValue">
+        trimValue()
+        <a href="classes/app-ActiveRecord-TrimBehavior.html#method_trimValue" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="ActiveRecord/TrimBehavior.php"><a href="files/activerecord-trimbehavior.html"><abbr title="ActiveRecord/TrimBehavior.php">TrimBehavior.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">57</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">递归修剪值，支持字符串、数字和数组</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">trimValue</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>输入值</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">mixed</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>修剪后的值</p>
+</section>
+
+            </section>
+
+</article>
             </section>
 
         <div class="phpdocumentor-modal" id="source-view">
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/yii2/ActiveRecord/TrimBehavior.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/ActiveRecord/TrimBehavior.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -367,16 +554,25 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/app-ActiveRecord-TrimBehavior.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/app-ActiveRecord-TrimBehavior.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/app-ActiveRecord-TrimBehavior.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/app-ActiveRecord-TrimBehavior.html#property_attributes">$attributes</a></li>
+                                                    <li class=""><a href="classes/app-ActiveRecord-TrimBehavior.html#property_excludeAttributes">$excludeAttributes</a></li>
+                                            </ul>
+                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/app-ActiveRecord-TrimBehavior.html#method_events">events()</a></li>
                                             <li class=""><a href="classes/app-ActiveRecord-TrimBehavior.html#method_trimAttributes">trimAttributes()</a></li>
+                                            <li class=""><a href="classes/app-ActiveRecord-TrimBehavior.html#method_trimValue">trimValue()</a></li>
                                     </ul>
             </li>
                     </ul>

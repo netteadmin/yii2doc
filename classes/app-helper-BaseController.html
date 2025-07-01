@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
@@ -64,7 +65,15 @@
                 
             </li>
                     <li>
+                <a href="namespaces/app-components.html" class="">components</a>
+                
+            </li>
+                    <li>
                 <a href="namespaces/app-helper.html" class="">helper</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/app-pack.html" class="">pack</a>
                 
             </li>
             </ul>
@@ -114,6 +123,9 @@
         </div>
     
     
+            <span class="phpdocumentor-element__extends">
+            uses
+                            <a href="classes/app-helper-TraitSaas.html"><abbr title="\app\helper\TraitSaas">TraitSaas</abbr></a>                    </span>
     </h2>
 
 <div class="phpdocumentor-label-line">
@@ -122,9 +134,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 
     </aside>
 
@@ -157,12 +169,6 @@
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/app-helper-BaseController.html#property_currency">$currency</a>
-    <span>
-                        &nbsp;: mixed            </span>
-</dt>
-
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a class="" href="classes/app-helper-BaseController.html#property_aclClass">$aclClass</a>
     <span>
@@ -178,6 +184,12 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a class="" href="classes/app-helper-BaseController.html#property_checkAcl">$checkAcl</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/app-helper-BaseController.html#property_currency">$currency</a>
     <span>
                         &nbsp;: mixed            </span>
 </dt>
@@ -320,6 +332,20 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/app-helper-TraitSaas.html#method_getSaasDomainFromRequest">getSaasDomainFromRequest()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+<dd>从请求中获取SaaS域名</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/app-helper-TraitSaas.html#method_initSaasTenantDatabase">initSaasTenantDatabase()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>初始化SaaS租户数据库连接</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a class="" href="classes/app-helper-BaseController.html#method_loadInit">loadInit()</a>
     <span>
                                 &nbsp;: mixed    </span>
@@ -376,64 +402,28 @@
         class="
             phpdocumentor-element
             -property
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_currency">
-        $currency
-        <a href="classes/app-helper-BaseController.html#property_currency" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">20</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">$currency</span>
-     = <span class="phpdocumentor-signature__default-value">&#039;CNY&#039;</span></code>
-
-    
-    
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_aclClass">
         $aclClass
         <a href="classes/app-helper-BaseController.html#property_aclClass" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$aclClass</span>
      = <span class="phpdocumentor-signature__default-value">&#039;\app\helper\Acl&#039;</span></code>
 
@@ -443,25 +433,27 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_actionTagAcl">
         $actionTagAcl
         <a href="classes/app-helper-BaseController.html#property_actionTagAcl" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
@@ -469,8 +461,8 @@
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$actionTagAcl</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
@@ -480,33 +472,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_checkAcl">
         $checkAcl
         <a href="classes/app-helper-BaseController.html#property_checkAcl" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$checkAcl</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
@@ -516,25 +510,65 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_currency">
+        $currency
+        <a href="classes/app-helper-BaseController.html#property_currency" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$currency</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;CNY&#039;</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_ignoreAclAction">
         $ignoreAclAction
         <a href="classes/app-helper-BaseController.html#property_ignoreAclAction" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -542,8 +576,8 @@
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$ignoreAclAction</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
@@ -553,25 +587,27 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_ignoreAction">
         $ignoreAction
         <a href="classes/app-helper-BaseController.html#property_ignoreAction" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
@@ -579,8 +615,8 @@
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$ignoreAction</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
@@ -590,33 +626,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_in_uniapp">
         $in_uniapp
         <a href="classes/app-helper-BaseController.html#property_in_uniapp" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$in_uniapp</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
@@ -626,33 +664,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_isJson">
         $isJson
         <a href="classes/app-helper-BaseController.html#property_isJson" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$isJson</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
@@ -662,33 +702,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_layout_name">
         $layout_name
         <a href="classes/app-helper-BaseController.html#property_layout_name" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$layout_name</span>
      = <span class="phpdocumentor-signature__default-value">&#039;user_theme_layout&#039;</span></code>
 
@@ -698,25 +740,27 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_loginedCanVisitAction">
         $loginedCanVisitAction
         <a href="classes/app-helper-BaseController.html#property_loginedCanVisitAction" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -724,8 +768,8 @@
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$loginedCanVisitAction</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
@@ -735,33 +779,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_loginedTag">
         $loginedTag
         <a href="classes/app-helper-BaseController.html#property_loginedTag" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$loginedTag</span>
      = <span class="phpdocumentor-signature__default-value">&#039;user&#039;</span></code>
 
@@ -771,33 +817,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_loginUrl">
         $loginUrl
         <a href="classes/app-helper-BaseController.html#property_loginUrl" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$loginUrl</span>
      = <span class="phpdocumentor-signature__default-value">&#039;/login/site/login&#039;</span></code>
 
@@ -807,33 +855,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_needLogin">
         $needLogin
         <a href="classes/app-helper-BaseController.html#property_needLogin" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$needLogin</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
@@ -843,33 +893,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_request_mvc">
         $request_mvc
         <a href="classes/app-helper-BaseController.html#property_request_mvc" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$request_mvc</span>
      = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
 
@@ -879,33 +931,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_theme_name">
         $theme_name
         <a href="classes/app-helper-BaseController.html#property_theme_name" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$theme_name</span>
      = <span class="phpdocumentor-signature__default-value">&#039;user_theme&#039;</span></code>
 
@@ -915,33 +969,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_user">
         $user
         <a href="classes/app-helper-BaseController.html#property_user" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$user</span>
     </code>
 
@@ -951,33 +1007,35 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_user_id">
         $user_id
         <a href="classes/app-helper-BaseController.html#property_user_id" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$user_id</span>
      = <span class="phpdocumentor-signature__default-value">0</span></code>
 
@@ -987,38 +1045,42 @@
 
     
 
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_useVue">
         $useVue
         <a href="classes/app-helper-BaseController.html#property_useVue" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$useVue</span>
      = <span class="phpdocumentor-signature__default-value">true</span></code>
 
     
     
+    
+
     
 
     
@@ -1044,9 +1106,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">110</span>
+    <span class="phpdocumentor-element-found-in__line">133</span>
 
     </aside>
 
@@ -1078,9 +1140,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">99</span>
+    <span class="phpdocumentor-element-found-in__line">120</span>
 
     </aside>
 
@@ -1122,9 +1184,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">251</span>
+    <span class="phpdocumentor-element-found-in__line">276</span>
 
     </aside>
 
@@ -1173,9 +1235,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
@@ -1207,9 +1269,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">139</span>
 
     </aside>
 
@@ -1265,9 +1327,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">97</span>
 
     </aside>
 
@@ -1316,9 +1378,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">241</span>
+    <span class="phpdocumentor-element-found-in__line">266</span>
 
     </aside>
 
@@ -1361,15 +1423,99 @@
             -protected
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getSaasDomainFromRequest">
+        getSaasDomainFromRequest()
+        <a href="classes/app-helper-TraitSaas.html#method_getSaasDomainFromRequest" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/TraitSaas.php"><a href="files/helper-traitsaas.html"><abbr title="helper/TraitSaas.php">TraitSaas.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">41</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">从请求中获取SaaS域名</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">getSaasDomainFromRequest</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_initSaasTenantDatabase">
+        initSaasTenantDatabase()
+        <a href="classes/app-helper-TraitSaas.html#method_initSaasTenantDatabase" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/TraitSaas.php"><a href="files/helper-traitsaas.html"><abbr title="helper/TraitSaas.php">TraitSaas.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">12</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">初始化SaaS租户数据库连接</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">initSaasTenantDatabase</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domain</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$domain</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_loadInit">
         loadInit()
         <a href="classes/app-helper-BaseController.html#method_loadInit" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">155</span>
 
     </aside>
 
@@ -1402,9 +1548,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">258</span>
+    <span class="phpdocumentor-element-found-in__line">288</span>
 
     </aside>
 
@@ -1437,9 +1583,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">120</span>
+    <span class="phpdocumentor-element-found-in__line">144</span>
 
     </aside>
 
@@ -1481,9 +1627,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
@@ -1516,9 +1662,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">293</span>
+    <span class="phpdocumentor-element-found-in__line">325</span>
 
     </aside>
 
@@ -1568,9 +1714,9 @@
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="yii2/helper/BaseController.php"><a href="files/yii2-helper-basecontroller.html"><abbr title="yii2/helper/BaseController.php">BaseController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="helper/BaseController.php"><a href="files/helper-basecontroller.html"><abbr title="helper/BaseController.php">BaseController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">233</span>
+    <span class="phpdocumentor-element-found-in__line">258</span>
 
     </aside>
 
@@ -1596,7 +1742,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/yii2/helper/BaseController.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/helper/BaseController.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -1703,10 +1849,10 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/app-helper-BaseController.html#property_currency">$currency</a></li>
                                                     <li class=""><a href="classes/app-helper-BaseController.html#property_aclClass">$aclClass</a></li>
                                                     <li class=""><a href="classes/app-helper-BaseController.html#property_actionTagAcl">$actionTagAcl</a></li>
                                                     <li class=""><a href="classes/app-helper-BaseController.html#property_checkAcl">$checkAcl</a></li>
+                                                    <li class=""><a href="classes/app-helper-BaseController.html#property_currency">$currency</a></li>
                                                     <li class=""><a href="classes/app-helper-BaseController.html#property_ignoreAclAction">$ignoreAclAction</a></li>
                                                     <li class=""><a href="classes/app-helper-BaseController.html#property_ignoreAction">$ignoreAction</a></li>
                                                     <li class=""><a href="classes/app-helper-BaseController.html#property_in_uniapp">$in_uniapp</a></li>
@@ -1734,6 +1880,8 @@
                                             <li class=""><a href="classes/app-helper-BaseController.html#method_redirect">redirect()</a></li>
                                             <li class=""><a href="classes/app-helper-BaseController.html#method_render">render()</a></li>
                                             <li class=""><a href="classes/app-helper-BaseController.html#method_success">success()</a></li>
+                                            <li class=""><a href="classes/app-helper-TraitSaas.html#method_getSaasDomainFromRequest">getSaasDomainFromRequest()</a></li>
+                                            <li class=""><a href="classes/app-helper-TraitSaas.html#method_initSaasTenantDatabase">initSaasTenantDatabase()</a></li>
                                             <li class=""><a href="classes/app-helper-BaseController.html#method_loadInit">loadInit()</a></li>
                                             <li class=""><a href="classes/app-helper-BaseController.html#method_loadViewEnd">loadViewEnd()</a></li>
                                             <li class=""><a href="classes/app-helper-BaseController.html#method_notLoginRedirect">notLoginRedirect()</a></li>

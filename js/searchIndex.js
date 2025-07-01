@@ -1,6 +1,146 @@
 Search.appendIndex(
     [
                 {
+            "fqsen": "\\app\\ActiveRecord\\Apply",
+            "name": "Apply",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Apply.html"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Apply\u003A\u003AbeforeSave\u0028\u0029",
+            "name": "beforeSave",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Apply.html#method_beforeSave"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Apply\u003A\u003AdoAutoApply\u0028\u0029",
+            "name": "doAutoApply",
+            "summary": "\u81EA\u52A8\u5BA1\u6838",
+            "url": "classes/app-ActiveRecord-Apply.html#method_doAutoApply"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Apply\u003A\u003AsendNotice\u0028\u0029",
+            "name": "sendNotice",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Apply.html#method_sendNotice"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Apply\u003A\u003A\u0024applyFields",
+            "name": "applyFields",
+            "summary": "\u9700\u8981\u5BA1\u6838\u7684\u5B57\u6BB5\n\u5B57\u6BB5\u003D\u003E\u7C7B\u578B\nbody\u003D\u003Etext\nimage\u003D\u003Eimage",
+            "url": "classes/app-ActiveRecord-Apply.html#property_applyFields"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Apply\u003A\u003A\u0024noticeBody",
+            "name": "noticeBody",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Apply.html#property_noticeBody"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\ApplyStatus",
+            "name": "ApplyStatus",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-ApplyStatus.html"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\ApplyStatus\u003A\u003AgetStatusOptions\u0028\u0029",
+            "name": "getStatusOptions",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-ApplyStatus.html#method_getStatusOptions"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\ApplyStatus\u003A\u003AgetStatusTxt\u0028\u0029",
+            "name": "getStatusTxt",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-ApplyStatus.html#method_getStatusTxt"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\ApplyStatus\u003A\u003AgetStatusColor\u0028\u0029",
+            "name": "getStatusColor",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-ApplyStatus.html#method_getStatusColor"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base",
+            "name": "Base",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Base.html"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Base.html#method_init"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003AparseClassName\u0028\u0029",
+            "name": "parseClassName",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Base.html#method_parseClassName"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003AbeforeSave\u0028\u0029",
+            "name": "beforeSave",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Base.html#method_beforeSave"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003AafterSave\u0028\u0029",
+            "name": "afterSave",
+            "summary": "Action\u003A\u003Aadd\u0028\u0027ActiveRecord.afterSave.printer.PrinterInfo\u0027,function\u0020\u0028\u0024obj\u0029\u0020\u007B\n\u0020\u0020\u0020\u0020\u0020echo\u0020\u0024obj\u002D\u003Eid\u003B\u0020\u0020exit\u003B\n\u007D\u0029\u003B",
+            "url": "classes/app-ActiveRecord-Base.html#method_afterSave"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003AtoRemoteUrl\u0028\u0029",
+            "name": "toRemoteUrl",
+            "summary": "URL\u8F6C\u6210\u8FDC\u7A0B\u5730\u5740",
+            "url": "classes/app-ActiveRecord-Base.html#method_toRemoteUrl"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003AparseContentImage\u0028\u0029",
+            "name": "parseContentImage",
+            "summary": "\u4ECE\u5185\u5BB9\u4E2D\u66FF\u6362\u672C\u5730\u56FE\u7247\u4E3A\u8FDC\u7A0B\u56FE\u7247",
+            "url": "classes/app-ActiveRecord-Base.html#method_parseContentImage"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003AgetContentImage\u0028\u0029",
+            "name": "getContentImage",
+            "summary": "\u4ECE\u5185\u5BB9\u4E2D\u53D6\u672C\u5730\u56FE\u7247",
+            "url": "classes/app-ActiveRecord-Base.html#method_getContentImage"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003AafterValidate\u0028\u0029",
+            "name": "afterValidate",
+            "summary": "afterValidate",
+            "url": "classes/app-ActiveRecord-Base.html#method_afterValidate"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003Abehaviors\u0028\u0029",
+            "name": "behaviors",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Base.html#method_behaviors"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003Asave\u0028\u0029",
+            "name": "save",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Base.html#method_save"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003AgetSymbol\u0028\u0029",
+            "name": "getSymbol",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Base.html#method_getSymbol"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003AgetError\u0028\u0029",
+            "name": "getError",
+            "summary": "\u8FD4\u56DE\u7B2C\u4E00\u6761\u9519\u8BEF\u4FE1\u606F",
+            "url": "classes/app-ActiveRecord-Base.html#method_getError"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003Aquery\u0028\u0029",
+            "name": "query",
+            "summary": "\u5199\u4E00\u4E2A\u003A\u003Afind\u0028\u0029\u0020\u65B9\u6CD5\u805A\u5408\u5904\u7406\uFF0C\u4EE5\u6570\u7EC4\u5F62\u5F0F\u8FDB\u884C\u5404\u79CDandWhere\u3001orWhere\u3001orderBy\u3001groupBy\u0020\u7B49\u64CD\u4F5C",
+            "url": "classes/app-ActiveRecord-Base.html#method_query"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003AgetIsDeleteTxt\u0028\u0029",
+            "name": "getIsDeleteTxt",
+            "summary": "isDeleteTxt",
+            "url": "classes/app-ActiveRecord-Base.html#method_getIsDeleteTxt"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003A\u0024multLang",
+            "name": "multLang",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Base.html#property_multLang"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003A\u0024autoInsertTime",
+            "name": "autoInsertTime",
+            "summary": "\u81EA\u52A8\u63D2\u5165\u65F6\u95F4\u6233\u548C\u7528\u6237ID",
+            "url": "classes/app-ActiveRecord-Base.html#property_autoInsertTime"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\Base\u003A\u003A\u0024autoInsertUserId",
+            "name": "autoInsertUserId",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-Base.html#property_autoInsertUserId"
+        },                {
             "fqsen": "\\app\\ActiveRecord\\CurrencyPrice",
             "name": "CurrencyPrice",
             "summary": "",
@@ -50,6 +190,16 @@ Search.appendIndex(
             "name": "InsertOrUpdate",
             "summary": "\u63D2\u5165\u6216\u66F4\u65B0\u6570\u636E",
             "url": "classes/app-ActiveRecord-InsertUpdate.html#method_InsertOrUpdate"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\IsApplyUser",
+            "name": "IsApplyUser",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-IsApplyUser.html"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\IsApplyUser\u003A\u003AgetIsApplyUser\u0028\u0029",
+            "name": "getIsApplyUser",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-IsApplyUser.html#method_getIsApplyUser"
         },                {
             "fqsen": "\\app\\ActiveRecord\\IsDefault",
             "name": "IsDefault",
@@ -118,7 +268,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\app\\ActiveRecord\\ParentSelect\u003A\u003AgetTree\u0028\u0029",
             "name": "getTree",
-            "summary": "",
+            "summary": "\u652F\u6301\u56DE\u8C03\n\u0024list\u0020\u003D\u0020\u0024model\u002D\u003EgetTree\u0028function\u0028\u0024model\u0029\u007B\n\u0024model\u005B\u0027isOpen\u0027\u005D\u0020\u003D\u0020false\u003B\nreturn\u0020\u0024model\u003B\n\u007D\u0029\u003B",
             "url": "classes/app-ActiveRecord-ParentSelect.html#method_getTree"
         },                {
             "fqsen": "\\app\\ActiveRecord\\ParentSelect\u003A\u003AgetParentSelect\u0028\u0029",
@@ -178,13 +328,178 @@ Search.appendIndex(
         },                {
             "fqsen": "\\app\\ActiveRecord\\TrimBehavior\u003A\u003Aevents\u0028\u0029",
             "name": "events",
-            "summary": "",
+            "summary": "\u5B9A\u4E49\u4E8B\u4EF6\u7ED1\u5B9A\uFF0C\u4FEE\u526A\u64CD\u4F5C\u5728\u63D2\u5165\u6216\u66F4\u65B0\u524D\u89E6\u53D1",
             "url": "classes/app-ActiveRecord-TrimBehavior.html#method_events"
         },                {
             "fqsen": "\\app\\ActiveRecord\\TrimBehavior\u003A\u003AtrimAttributes\u0028\u0029",
             "name": "trimAttributes",
-            "summary": "",
+            "summary": "\u4FEE\u526A\u6A21\u578B\u7684\u5C5E\u6027\u503C",
             "url": "classes/app-ActiveRecord-TrimBehavior.html#method_trimAttributes"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\TrimBehavior\u003A\u003AtrimValue\u0028\u0029",
+            "name": "trimValue",
+            "summary": "\u9012\u5F52\u4FEE\u526A\u503C\uFF0C\u652F\u6301\u5B57\u7B26\u4E32\u3001\u6570\u5B57\u548C\u6570\u7EC4",
+            "url": "classes/app-ActiveRecord-TrimBehavior.html#method_trimValue"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\TrimBehavior\u003A\u003A\u0024attributes",
+            "name": "attributes",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-TrimBehavior.html#property_attributes"
+        },                {
+            "fqsen": "\\app\\ActiveRecord\\TrimBehavior\u003A\u003A\u0024excludeAttributes",
+            "name": "excludeAttributes",
+            "summary": "",
+            "url": "classes/app-ActiveRecord-TrimBehavior.html#property_excludeAttributes"
+        },                {
+            "fqsen": "\\app\\components\\behaviors\\OptimisticLockBehavior",
+            "name": "OptimisticLockBehavior",
+            "summary": "",
+            "url": "classes/app-components-behaviors-OptimisticLockBehavior.html"
+        },                {
+            "fqsen": "\\app\\components\\behaviors\\OptimisticLockBehavior\u003A\u003Aevents\u0028\u0029",
+            "name": "events",
+            "summary": "",
+            "url": "classes/app-components-behaviors-OptimisticLockBehavior.html#method_events"
+        },                {
+            "fqsen": "\\app\\components\\behaviors\\OptimisticLockBehavior\u003A\u003AcheckVersion\u0028\u0029",
+            "name": "checkVersion",
+            "summary": "",
+            "url": "classes/app-components-behaviors-OptimisticLockBehavior.html#method_checkVersion"
+        },                {
+            "fqsen": "\\app\\components\\behaviors\\OptimisticLockBehavior\u003A\u003A\u0024versionAttribute",
+            "name": "versionAttribute",
+            "summary": "",
+            "url": "classes/app-components-behaviors-OptimisticLockBehavior.html#property_versionAttribute"
+        },                {
+            "fqsen": "\\app\\components\\behaviors\\OptimisticLockBehavior\u003A\u003A\u0024versionIncreased",
+            "name": "versionIncreased",
+            "summary": "",
+            "url": "classes/app-components-behaviors-OptimisticLockBehavior.html#property_versionIncreased"
+        },                {
+            "fqsen": "\\app\\components\\grid\\EditableColumn",
+            "name": "EditableColumn",
+            "summary": "",
+            "url": "classes/app-components-grid-EditableColumn.html"
+        },                {
+            "fqsen": "\\app\\components\\grid\\EditableColumn\u003A\u003ArenderDataCellContent\u0028\u0029",
+            "name": "renderDataCellContent",
+            "summary": "",
+            "url": "classes/app-components-grid-EditableColumn.html#method_renderDataCellContent"
+        },                {
+            "fqsen": "\\app\\components\\grid\\EditableColumn\u003A\u003AregisterClientScript\u0028\u0029",
+            "name": "registerClientScript",
+            "summary": "",
+            "url": "classes/app-components-grid-EditableColumn.html#method_registerClientScript"
+        },                {
+            "fqsen": "\\app\\components\\grid\\EditableColumn\u003A\u003A\u0024ajaxUrl",
+            "name": "ajaxUrl",
+            "summary": "",
+            "url": "classes/app-components-grid-EditableColumn.html#property_ajaxUrl"
+        },                {
+            "fqsen": "\\app\\components\\Lock",
+            "name": "Lock",
+            "summary": "",
+            "url": "classes/app-components-Lock.html"
+        },                {
+            "fqsen": "\\app\\components\\Lock\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-components-Lock.html#method_init"
+        },                {
+            "fqsen": "\\app\\components\\Lock\u003A\u003Arun\u0028\u0029",
+            "name": "run",
+            "summary": "",
+            "url": "classes/app-components-Lock.html#method_run"
+        },                {
+            "fqsen": "\\app\\components\\Lock\u003A\u003A\u0024factory",
+            "name": "factory",
+            "summary": "",
+            "url": "classes/app-components-Lock.html#property_factory"
+        },                {
+            "fqsen": "\\app\\components\\Lock\u003A\u003A\u0024drive",
+            "name": "drive",
+            "summary": "redis\u0020\u6216\u0020semaphore\u0020\u9A71\u52A8\n\u5F53\u4E3A\u0020semaphore\u0020\u65F6\uFF0C\u9700\u8981\u5F00\u542F\u0020sysvsem",
+            "url": "classes/app-components-Lock.html#property_drive"
+        },                {
+            "fqsen": "\\app\\components\\Node",
+            "name": "Node",
+            "summary": "",
+            "url": "classes/app-components-Node.html"
+        },                {
+            "fqsen": "\\app\\components\\Node\u003A\u003AandWhere\u0028\u0029",
+            "name": "andWhere",
+            "summary": "query\u0020andWhere\nYii\u003A\u003A\u0024app\u002D\u003Enode\u002D\u003EandWhere\u0028\u0024query,\u0020\u0024params,\u0020\u005B\u0027store_id\u0027,\u0027seller_id\u0027\u005D,\u0020\u005B\u0027is_delete\u0027\u0020\u003D\u003E\u00200\u005D\u0029\u003B",
+            "url": "classes/app-components-Node.html#method_andWhere"
+        },                {
+            "fqsen": "\\app\\components\\Node\u003A\u003AgetStore_id\u0028\u0029",
+            "name": "getStore_id",
+            "summary": "\u53D6store_id",
+            "url": "classes/app-components-Node.html#method_getStore_id"
+        },                {
+            "fqsen": "\\app\\components\\Node\u003A\u003AgetSeller_id\u0028\u0029",
+            "name": "getSeller_id",
+            "summary": "\u53D6seller_id",
+            "url": "classes/app-components-Node.html#method_getSeller_id"
+        },                {
+            "fqsen": "\\app\\components\\Seller",
+            "name": "Seller",
+            "summary": "",
+            "url": "classes/app-components-Seller.html"
+        },                {
+            "fqsen": "\\app\\components\\Seller\u003A\u003AsetInfo\u0028\u0029",
+            "name": "setInfo",
+            "summary": "\u8BBE\u7F6E\u503C",
+            "url": "classes/app-components-Seller.html#method_setInfo"
+        },                {
+            "fqsen": "\\app\\components\\Seller\u003A\u003AgetInfo\u0028\u0029",
+            "name": "getInfo",
+            "summary": "",
+            "url": "classes/app-components-Seller.html#method_getInfo"
+        },                {
+            "fqsen": "\\app\\components\\Seller\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/app-components-Seller.html#method_getId"
+        },                {
+            "fqsen": "\\app\\components\\Seller\u003A\u003A\u0024info",
+            "name": "info",
+            "summary": "",
+            "url": "classes/app-components-Seller.html#property_info"
+        },                {
+            "fqsen": "\\app\\components\\Store",
+            "name": "Store",
+            "summary": "",
+            "url": "classes/app-components-Store.html"
+        },                {
+            "fqsen": "\\app\\components\\Store\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/app-components-Store.html#method_getId"
+        },                {
+            "fqsen": "\\app\\components\\User",
+            "name": "User",
+            "summary": "",
+            "url": "classes/app-components-User.html"
+        },                {
+            "fqsen": "\\app\\components\\User\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "\u521D\u59CB\u5316",
+            "url": "classes/app-components-User.html#method_init"
+        },                {
+            "fqsen": "\\app\\components\\User\u003A\u003AsetInfo\u0028\u0029",
+            "name": "setInfo",
+            "summary": "\u8BBE\u7F6E\u503C",
+            "url": "classes/app-components-User.html#method_setInfo"
+        },                {
+            "fqsen": "\\app\\components\\User\u003A\u003AgetInfo\u0028\u0029",
+            "name": "getInfo",
+            "summary": "",
+            "url": "classes/app-components-User.html#method_getInfo"
+        },                {
+            "fqsen": "\\app\\components\\User\u003A\u003A\u0024info",
+            "name": "info",
+            "summary": "",
+            "url": "classes/app-components-User.html#property_info"
         },                {
             "fqsen": "\\app\\helper\\Acl",
             "name": "Acl",
@@ -241,6 +556,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-ActiveForm.html"
         },                {
+            "fqsen": "\\app\\helper\\ActiveForm\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "\u521D\u59CB\u5316\u8868\u5355\u914D\u7F6E",
+            "url": "classes/app-helper-ActiveForm.html#method_init"
+        },                {
+            "fqsen": "\\app\\helper\\ActiveForm\u003A\u003Acheckbox\u0028\u0029",
+            "name": "checkbox",
+            "summary": "\u91CD\u5199checkbox\u6E32\u67D3\u65B9\u6CD5",
+            "url": "classes/app-helper-ActiveForm.html#method_checkbox"
+        },                {
+            "fqsen": "\\app\\helper\\ActiveForm\u003A\u003A\u0024fieldConfig",
+            "name": "fieldConfig",
+            "summary": "\u914D\u7F6E\u4E3A\u4E0E\u56FE\u7247\u5B8C\u5168\u4E00\u81F4\u7684Bootstrap\u00205\u9519\u8BEF\u63D0\u793A\u98CE\u683C",
+            "url": "classes/app-helper-ActiveForm.html#property_fieldConfig"
+        },                {
             "fqsen": "\\app\\helper\\ActiveQuery",
             "name": "ActiveQuery",
             "summary": "",
@@ -286,6 +616,21 @@ Search.appendIndex(
             "summary": "\u5206\u9875",
             "url": "classes/app-helper-ActiveQuery.html#method_page"
         },                {
+            "fqsen": "\\app\\helper\\ActiveQuery\u003A\u003Adefault\u0028\u0029",
+            "name": "default",
+            "summary": "just\u0020show\u0020actived\u0020data",
+            "url": "classes/app-helper-ActiveQuery.html#method_default"
+        },                {
+            "fqsen": "\\app\\helper\\ActiveQuery\u003A\u003Astore\u0028\u0029",
+            "name": "store",
+            "summary": "store\u0020where",
+            "url": "classes/app-helper-ActiveQuery.html#method_store"
+        },                {
+            "fqsen": "\\app\\helper\\ActiveQuery\u003A\u003Aseller\u0028\u0029",
+            "name": "seller",
+            "summary": "seller\u0020where",
+            "url": "classes/app-helper-ActiveQuery.html#method_seller"
+        },                {
             "fqsen": "\\app\\helper\\ActiveQuery\u003A\u003A\u0024betweenField",
             "name": "betweenField",
             "summary": "",
@@ -296,70 +641,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-ActiveRecord.html"
         },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003Ainit\u0028\u0029",
-            "name": "init",
+            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003AgridColumns\u0028\u0029",
+            "name": "gridColumns",
             "summary": "",
-            "url": "classes/app-helper-ActiveRecord.html#method_init"
+            "url": "classes/app-helper-ActiveRecord.html#method_gridColumns"
         },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003AbeforeSave\u0028\u0029",
-            "name": "beforeSave",
+            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003A_getNodeSort\u0028\u0029",
+            "name": "_getNodeSort",
             "summary": "",
-            "url": "classes/app-helper-ActiveRecord.html#method_beforeSave"
-        },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003AtoRemoteUrl\u0028\u0029",
-            "name": "toRemoteUrl",
-            "summary": "URL\u8F6C\u6210\u8FDC\u7A0B\u5730\u5740",
-            "url": "classes/app-helper-ActiveRecord.html#method_toRemoteUrl"
-        },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003AparseContentImage\u0028\u0029",
-            "name": "parseContentImage",
-            "summary": "\u4ECE\u5185\u5BB9\u4E2D\u66FF\u6362\u672C\u5730\u56FE\u7247\u4E3A\u8FDC\u7A0B\u56FE\u7247",
-            "url": "classes/app-helper-ActiveRecord.html#method_parseContentImage"
-        },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003AgetContentImage\u0028\u0029",
-            "name": "getContentImage",
-            "summary": "\u4ECE\u5185\u5BB9\u4E2D\u53D6\u672C\u5730\u56FE\u7247",
-            "url": "classes/app-helper-ActiveRecord.html#method_getContentImage"
-        },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003AafterValidate\u0028\u0029",
-            "name": "afterValidate",
-            "summary": "afterValidate",
-            "url": "classes/app-helper-ActiveRecord.html#method_afterValidate"
-        },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003Abehaviors\u0028\u0029",
-            "name": "behaviors",
-            "summary": "",
-            "url": "classes/app-helper-ActiveRecord.html#method_behaviors"
-        },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003Asave\u0028\u0029",
-            "name": "save",
-            "summary": "",
-            "url": "classes/app-helper-ActiveRecord.html#method_save"
-        },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003AgetSymbol\u0028\u0029",
-            "name": "getSymbol",
-            "summary": "",
-            "url": "classes/app-helper-ActiveRecord.html#method_getSymbol"
-        },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003A\u0024multLang",
-            "name": "multLang",
-            "summary": "",
-            "url": "classes/app-helper-ActiveRecord.html#property_multLang"
-        },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003A\u0024autoInsertTime",
-            "name": "autoInsertTime",
-            "summary": "\u81EA\u52A8\u63D2\u5165\u65F6\u95F4\u6233\u548C\u7528\u6237ID",
-            "url": "classes/app-helper-ActiveRecord.html#property_autoInsertTime"
-        },                {
-            "fqsen": "\\app\\helper\\ActiveRecord\u003A\u003A\u0024autoInsertUserId",
-            "name": "autoInsertUserId",
-            "summary": "",
-            "url": "classes/app-helper-ActiveRecord.html#property_autoInsertUserId"
+            "url": "classes/app-helper-ActiveRecord.html#method__getNodeSort"
         },                {
             "fqsen": "\\app\\helper\\AdminController",
             "name": "AdminController",
             "summary": "",
             "url": "classes/app-helper-AdminController.html"
+        },                {
+            "fqsen": "\\app\\helper\\AdminController\u003A\u003AbeforeAction\u0028\u0029",
+            "name": "beforeAction",
+            "summary": "",
+            "url": "classes/app-helper-AdminController.html#method_beforeAction"
         },                {
             "fqsen": "\\app\\helper\\AdminController\u003A\u003A\u0024loginedTag",
             "name": "loginedTag",
@@ -390,6 +690,41 @@ Search.appendIndex(
             "name": "loginUrl",
             "summary": "",
             "url": "classes/app-helper-AdminController.html#property_loginUrl"
+        },                {
+            "fqsen": "\\app\\helper\\Aes",
+            "name": "Aes",
+            "summary": "",
+            "url": "classes/app-helper-Aes.html"
+        },                {
+            "fqsen": "\\app\\helper\\Aes\u003A\u003Aencode\u0028\u0029",
+            "name": "encode",
+            "summary": "\u52A0\u5BC6",
+            "url": "classes/app-helper-Aes.html#method_encode"
+        },                {
+            "fqsen": "\\app\\helper\\Aes\u003A\u003Adecode\u0028\u0029",
+            "name": "decode",
+            "summary": "\u89E3\u5BC6",
+            "url": "classes/app-helper-Aes.html#method_decode"
+        },                {
+            "fqsen": "\\app\\helper\\ApiAdminController",
+            "name": "ApiAdminController",
+            "summary": "",
+            "url": "classes/app-helper-ApiAdminController.html"
+        },                {
+            "fqsen": "\\app\\helper\\ApiAdminController\u003A\u003A\u0024loginedTag",
+            "name": "loginedTag",
+            "summary": "",
+            "url": "classes/app-helper-ApiAdminController.html#property_loginedTag"
+        },                {
+            "fqsen": "\\app\\helper\\ApiAdminController\u003A\u003A\u0024checkAcl",
+            "name": "checkAcl",
+            "summary": "",
+            "url": "classes/app-helper-ApiAdminController.html#property_checkAcl"
+        },                {
+            "fqsen": "\\app\\helper\\ApiAdminController\u003A\u003A\u0024needLogin",
+            "name": "needLogin",
+            "summary": "",
+            "url": "classes/app-helper-ApiAdminController.html#property_needLogin"
         },                {
             "fqsen": "\\app\\helper\\ApiController",
             "name": "ApiController",
@@ -441,10 +776,100 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-ApiController.html#property_isJson"
         },                {
+            "fqsen": "\\app\\helper\\ApiSellerController",
+            "name": "ApiSellerController",
+            "summary": "",
+            "url": "classes/app-helper-ApiSellerController.html"
+        },                {
+            "fqsen": "\\app\\helper\\ApiSellerController\u003A\u003AbeforeAction\u0028\u0029",
+            "name": "beforeAction",
+            "summary": "",
+            "url": "classes/app-helper-ApiSellerController.html#method_beforeAction"
+        },                {
+            "fqsen": "\\app\\helper\\ApiStoreController",
+            "name": "ApiStoreController",
+            "summary": "",
+            "url": "classes/app-helper-ApiStoreController.html"
+        },                {
+            "fqsen": "\\app\\helper\\ApiStoreController\u003A\u003AbeforeAction\u0028\u0029",
+            "name": "beforeAction",
+            "summary": "",
+            "url": "classes/app-helper-ApiStoreController.html#method_beforeAction"
+        },                {
+            "fqsen": "\\app\\helper\\Apps",
+            "name": "Apps",
+            "summary": "\u7BA1\u7406SaaS\u73AF\u5883\u4E2D\u7684\u5E94\u7528\u5207\u6362\u548C\u663E\u793A\u529F\u80FD",
+            "url": "classes/app-helper-Apps.html"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003AsetDefault\u0028\u0029",
+            "name": "setDefault",
+            "summary": "\u8BBE\u7F6E\u9ED8\u8BA4\u5E94\u7528",
+            "url": "classes/app-helper-Apps.html#method_setDefault"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003AgetCurrentName\u0028\u0029",
+            "name": "getCurrentName",
+            "summary": "\u83B7\u53D6\u5F53\u524D\u5E94\u7528\u540D\u79F0",
+            "url": "classes/app-helper-Apps.html#method_getCurrentName"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003AcanShowAppName\u0028\u0029",
+            "name": "canShowAppName",
+            "summary": "\u68C0\u67E5\u5E94\u7528\u5728SaaS\u73AF\u5883\u4E2D\u662F\u5426\u53EF\u663E\u793A",
+            "url": "classes/app-helper-Apps.html#method_canShowAppName"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003Aset\u0028\u0029",
+            "name": "set",
+            "summary": "\u6DFB\u52A0\u5E94\u7528\u5230\u5217\u8868",
+            "url": "classes/app-helper-Apps.html#method_set"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "\u83B7\u53D6\u6240\u6709\u5E94\u7528",
+            "url": "classes/app-helper-Apps.html#method_getAll"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003AgetCurrent\u0028\u0029",
+            "name": "getCurrent",
+            "summary": "\u83B7\u53D6\u5F53\u524D\u5E94\u7528\u6807\u8BC6",
+            "url": "classes/app-helper-Apps.html#method_getCurrent"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003ArenderSwitcher\u0028\u0029",
+            "name": "renderSwitcher",
+            "summary": "\u6E32\u67D3\u5E94\u7528\u5207\u6362\u5668HTML",
+            "url": "classes/app-helper-Apps.html#method_renderSwitcher"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003AswitchTo\u0028\u0029",
+            "name": "switchTo",
+            "summary": "\u5207\u6362\u5230\u6307\u5B9A\u5E94\u7528",
+            "url": "classes/app-helper-Apps.html#method_switchTo"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003AgetChangeUrl\u0028\u0029",
+            "name": "getChangeUrl",
+            "summary": "\u83B7\u53D6\u5E94\u7528\u5207\u6362URL",
+            "url": "classes/app-helper-Apps.html#method_getChangeUrl"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003A\u0024apps",
+            "name": "apps",
+            "summary": "",
+            "url": "classes/app-helper-Apps.html#property_apps"
+        },                {
+            "fqsen": "\\app\\helper\\Apps\u003A\u003A\u0024appNames",
+            "name": "appNames",
+            "summary": "",
+            "url": "classes/app-helper-Apps.html#property_appNames"
+        },                {
             "fqsen": "\\app\\helper\\Arr",
             "name": "Arr",
             "summary": "",
             "url": "classes/app-helper-Arr.html"
+        },                {
+            "fqsen": "\\app\\helper\\Arr\u003A\u003Aunique\u0028\u0029",
+            "name": "unique",
+            "summary": "\u4E8C\u7EF4\u6570\u7EC4\u53BB\u91CD",
+            "url": "classes/app-helper-Arr.html#method_unique"
+        },                {
+            "fqsen": "\\app\\helper\\Arr\u003A\u003AtoSelect\u0028\u0029",
+            "name": "toSelect",
+            "summary": "\u6570\u7EC4\u8F6Cselect,\u7528\u4E8Euniapp\u8868\u5355select\u0020\u9700\u8981\u0020value\u0020\u548C\u0020label",
+            "url": "classes/app-helper-Arr.html#method_toSelect"
         },                {
             "fqsen": "\\app\\helper\\Arr\u003A\u003AtoXml\u0028\u0029",
             "name": "toXml",
@@ -646,6 +1071,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-Breadcrumbs.html#method_renderItem"
         },                {
+            "fqsen": "\\app\\helper\\Cache",
+            "name": "Cache",
+            "summary": "",
+            "url": "classes/app-helper-Cache.html"
+        },                {
+            "fqsen": "\\app\\helper\\Cache\u003A\u003Aset\u0028\u0029",
+            "name": "set",
+            "summary": "Set\u0020cache\u0020with\u0020grouping\u0020and\u0020store\u0020metadata\u0020in\u0020the\u0020database.",
+            "url": "classes/app-helper-Cache.html#method_set"
+        },                {
+            "fqsen": "\\app\\helper\\Cache\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Get\u0020cache\u0020value\u0020by\u0020key.",
+            "url": "classes/app-helper-Cache.html#method_get"
+        },                {
+            "fqsen": "\\app\\helper\\Cache\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "Delete\u0020a\u0020single\u0020cache\u0020entry\u0020and\u0020its\u0020database\u0020metadata.",
+            "url": "classes/app-helper-Cache.html#method_delete"
+        },                {
+            "fqsen": "\\app\\helper\\Cache\u003A\u003AdeleteGroup\u0028\u0029",
+            "name": "deleteGroup",
+            "summary": "Delete\u0020all\u0020cache\u0020entries\u0020in\u0020a\u0020group\u0020and\u0020their\u0020database\u0020metadata.",
+            "url": "classes/app-helper-Cache.html#method_deleteGroup"
+        },                {
+            "fqsen": "\\app\\helper\\Cache\u003A\u003ADEFAULT_DURATION",
+            "name": "DEFAULT_DURATION",
+            "summary": "",
+            "url": "classes/app-helper-Cache.html#constant_DEFAULT_DURATION"
+        },                {
             "fqsen": "\\app\\helper\\Cdn",
             "name": "Cdn",
             "summary": "",
@@ -700,6 +1155,66 @@ Search.appendIndex(
             "name": "hexToRgb",
             "summary": "\u5341\u516D\u8FDB\u5236\u8F6Crgb",
             "url": "classes/app-helper-Color.html#method_hexToRgb"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller",
+            "name": "ConsoleContoller",
+            "summary": "",
+            "url": "classes/app-helper-ConsoleContoller.html"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003Aoptions\u0028\u0029",
+            "name": "options",
+            "summary": "\u914D\u7F6E\u9009\u9879",
+            "url": "classes/app-helper-ConsoleContoller.html#method_options"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003AoptionAliases\u0028\u0029",
+            "name": "optionAliases",
+            "summary": "\u9009\u9879\u522B\u540D",
+            "url": "classes/app-helper-ConsoleContoller.html#method_optionAliases"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-helper-ConsoleContoller.html#method_init"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003AinitTenantConfig\u0028\u0029",
+            "name": "initTenantConfig",
+            "summary": "\u521D\u59CB\u5316\u79DF\u6237\u914D\u7F6E",
+            "url": "classes/app-helper-ConsoleContoller.html#method_initTenantConfig"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003AgetDomainFromConsole\u0028\u0029",
+            "name": "getDomainFromConsole",
+            "summary": "\u4ECE\u63A7\u5236\u53F0\u83B7\u53D6\u57DF\u540D",
+            "url": "classes/app-helper-ConsoleContoller.html#method_getDomainFromConsole"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003AgetDomainInfo\u0028\u0029",
+            "name": "getDomainInfo",
+            "summary": "\u83B7\u53D6\u57DF\u540D\u4FE1\u606F",
+            "url": "classes/app-helper-ConsoleContoller.html#method_getDomainInfo"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003AgetTenantInfo\u0028\u0029",
+            "name": "getTenantInfo",
+            "summary": "\u83B7\u53D6\u79DF\u6237\u4FE1\u606F",
+            "url": "classes/app-helper-ConsoleContoller.html#method_getTenantInfo"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003AgetDbConfig\u0028\u0029",
+            "name": "getDbConfig",
+            "summary": "\u83B7\u53D6\u6570\u636E\u5E93\u914D\u7F6E",
+            "url": "classes/app-helper-ConsoleContoller.html#method_getDbConfig"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003A\u0024tenantInfo",
+            "name": "tenantInfo",
+            "summary": "",
+            "url": "classes/app-helper-ConsoleContoller.html#property_tenantInfo"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003A\u0024domainInfo",
+            "name": "domainInfo",
+            "summary": "",
+            "url": "classes/app-helper-ConsoleContoller.html#property_domainInfo"
+        },                {
+            "fqsen": "\\app\\helper\\ConsoleContoller\u003A\u003A\u0024domain",
+            "name": "domain",
+            "summary": "",
+            "url": "classes/app-helper-ConsoleContoller.html#property_domain"
         },                {
             "fqsen": "\\app\\helper\\Curl",
             "name": "Curl",
@@ -766,6 +1281,11 @@ Search.appendIndex(
             "summary": "\u83B7\u53D6\u6570\u636E",
             "url": "classes/app-helper-CurlData.html#method_getData"
         },                {
+            "fqsen": "\\app\\helper\\CurlData\u003A\u003AupdateData\u0028\u0029",
+            "name": "updateData",
+            "summary": "\u66F4\u65B0\u6570\u636E",
+            "url": "classes/app-helper-CurlData.html#method_updateData"
+        },                {
             "fqsen": "\\app\\helper\\Data",
             "name": "Data",
             "summary": "\u6570\u636E\u5904\u7406",
@@ -811,6 +1331,26 @@ Search.appendIndex(
             "summary": "\u83B7\u53D6\u76EE\u5F55\u4E0B\u7684\u6240\u6709\u6587\u4EF6",
             "url": "classes/app-helper-Dir.html#method_getDeep"
         },                {
+            "fqsen": "\\app\\helper\\Dir\u003A\u003Acopy\u0028\u0029",
+            "name": "copy",
+            "summary": "\u590D\u5236\u76EE\u5F55",
+            "url": "classes/app-helper-Dir.html#method_copy"
+        },                {
+            "fqsen": "\\app\\helper\\Dir\u003A\u003Aremove\u0028\u0029",
+            "name": "remove",
+            "summary": "\u5220\u9664\u76EE\u5F55\u53CA\u5176\u5185\u5BB9",
+            "url": "classes/app-helper-Dir.html#method_remove"
+        },                {
+            "fqsen": "\\app\\helper\\DomainQueue",
+            "name": "DomainQueue",
+            "summary": "",
+            "url": "classes/app-helper-DomainQueue.html"
+        },                {
+            "fqsen": "\\app\\helper\\DomainQueue\u003A\u003ApushMessage\u0028\u0029",
+            "name": "pushMessage",
+            "summary": "",
+            "url": "classes/app-helper-DomainQueue.html#method_pushMessage"
+        },                {
             "fqsen": "\\app\\helper\\Download",
             "name": "Download",
             "summary": "",
@@ -851,6 +1391,11 @@ Search.appendIndex(
             "summary": "\u83B7\u53D6get",
             "url": "classes/app-helper-Env.html#method_get"
         },                {
+            "fqsen": "\\app\\helper\\Env\u003A\u003AgetPost\u0028\u0029",
+            "name": "getPost",
+            "summary": "",
+            "url": "classes/app-helper-Env.html#method_getPost"
+        },                {
             "fqsen": "\\app\\helper\\Env\u003A\u003Apost\u0028\u0029",
             "name": "post",
             "summary": "",
@@ -870,6 +1415,11 @@ Search.appendIndex(
             "name": "getHost",
             "summary": "\u4E3B\u57DF\u540D",
             "url": "classes/app-helper-Env.html#method_getHost"
+        },                {
+            "fqsen": "\\app\\helper\\Env\u003A\u003AgetDomain\u0028\u0029",
+            "name": "getDomain",
+            "summary": "\u57DF\u540D",
+            "url": "classes/app-helper-Env.html#method_getDomain"
         },                {
             "fqsen": "\\app\\helper\\Env\u003A\u003Across\u0028\u0029",
             "name": "cross",
@@ -925,6 +1475,36 @@ Search.appendIndex(
             "name": "getIp",
             "summary": "\u83B7\u53D6IP",
             "url": "classes/app-helper-Env.html#method_getIp"
+        },                {
+            "fqsen": "\\app\\helper\\Env\u003A\u003AisCrawler\u0028\u0029",
+            "name": "isCrawler",
+            "summary": "\u5224\u65AD\u662F\u5426\u662F\u722C\u866B",
+            "url": "classes/app-helper-Env.html#method_isCrawler"
+        },                {
+            "fqsen": "\\app\\helper\\Env\u003A\u003AgetDomainInfo\u0028\u0029",
+            "name": "getDomainInfo",
+            "summary": "",
+            "url": "classes/app-helper-Env.html#method_getDomainInfo"
+        },                {
+            "fqsen": "\\app\\helper\\Env\u003A\u003Ayii_license_check_3000\u0028\u0029",
+            "name": "yii_license_check_3000",
+            "summary": "",
+            "url": "classes/app-helper-Env.html#method_yii_license_check_3000"
+        },                {
+            "fqsen": "\\app\\helper\\ErrorHandler",
+            "name": "ErrorHandler",
+            "summary": "",
+            "url": "classes/app-helper-ErrorHandler.html"
+        },                {
+            "fqsen": "\\app\\helper\\ErrorHandler\u003A\u003ArenderException\u0028\u0029",
+            "name": "renderException",
+            "summary": "",
+            "url": "classes/app-helper-ErrorHandler.html#method_renderException"
+        },                {
+            "fqsen": "\\app\\helper\\ErrorHandler\u003A\u003A\u0024errorAction",
+            "name": "errorAction",
+            "summary": "",
+            "url": "classes/app-helper-ErrorHandler.html#property_errorAction"
         },                {
             "fqsen": "\\app\\helper\\File",
             "name": "File",
@@ -1121,6 +1701,11 @@ Search.appendIndex(
             "summary": "\u8DF3\u8F6CURL,\u6B64\u65F6\u4E0D\u8981\u6709COOKIE\u0020SESSION\u64CD\u4F5C\n\u5982\u679C\u9700\u8981\u64CD\u4F5CCOOKIE\uFF0C\u53EF\u7528\u0020\u0024this\u002D\u003Eredirect\u0028\u005B\u0027url\u0027\u005D\u0029\u003B",
             "url": "namespaces/default.html#function_redirect"
         },                {
+            "fqsen": "\\redirect_to\u0028\u0029",
+            "name": "redirect_to",
+            "summary": "\u76F4\u63A5\u8DF3\u8F6C",
+            "url": "namespaces/default.html#function_redirect_to"
+        },                {
             "fqsen": "\\set_flash_success\u0028\u0029",
             "name": "set_flash_success",
             "summary": "\u8BBE\u7F6E\u6210\u529F\u6D88\u606F",
@@ -1256,6 +1841,96 @@ Search.appendIndex(
             "summary": "\u83B7\u53D6\u79C1\u6709\u4E0A\u4F20\u5730\u5740",
             "url": "namespaces/default.html#function_get_private_upload_url"
         },                {
+            "fqsen": "\\timeago\u0028\u0029",
+            "name": "timeago",
+            "summary": "\u663E\u793A\u591A\u5C11\u65F6\u95F4\u524D",
+            "url": "namespaces/default.html#function_timeago"
+        },                {
+            "fqsen": "\\rich_editor\u0028\u0029",
+            "name": "rich_editor",
+            "summary": "\u5BCC\u6587\u672C\n\u0024form\u002D\u003Efield\u0028\u0024model,\u0020\u0027content\u0027\u0029\n\u0020\u002D\u003Etextarea\u0028\u005B\u0027rows\u0027\u0020\u003D\u003E\u00206\u005D\u0029\n\u0020\u002D\u003Ewidget\u0028rich_editor\u0028\u0029,\u0020\u005B\u0027name\u0027\u0020\u003D\u003E\u0020\u0027Article\u0027,\u0020\u0027toolbarType\u0027\u0020\u003D\u003E\u0020\u0027default\u0027\u005D\u0029",
+            "url": "namespaces/default.html#function_rich_editor"
+        },                {
+            "fqsen": "\\zip\u0028\u0029",
+            "name": "zip",
+            "summary": "\u538B\u7F29\u6216\u89E3\u538Bzip\u5305",
+            "url": "namespaces/default.html#function_zip"
+        },                {
+            "fqsen": "\\yii_error\u0028\u0029",
+            "name": "yii_error",
+            "summary": "\u91CD\u5199\u9519\u8BEF\u65E5\u5FD7",
+            "url": "namespaces/default.html#function_yii_error"
+        },                {
+            "fqsen": "\\yii_info\u0028\u0029",
+            "name": "yii_info",
+            "summary": "\u91CD\u5199info\u65E5\u5FD7",
+            "url": "namespaces/default.html#function_yii_info"
+        },                {
+            "fqsen": "\\is_cli\u0028\u0029",
+            "name": "is_cli",
+            "summary": "\u662F\u5426\u662F\u547D\u4EE4\u884C\u4E0B\u8FD0\u884C\u7684",
+            "url": "namespaces/default.html#function_is_cli"
+        },                {
+            "fqsen": "\\has_module\u0028\u0029",
+            "name": "has_module",
+            "summary": "\u6A21\u5757\u662F\u5426\u5B58\u5728",
+            "url": "namespaces/default.html#function_has_module"
+        },                {
+            "fqsen": "\\json_success\u0028\u0029",
+            "name": "json_success",
+            "summary": "\u517C\u5BB9\u81EA\u5DF1\u5F00\u53D1\u7684composer\u5305",
+            "url": "namespaces/default.html#function_json_success"
+        },                {
+            "fqsen": "\\json_error\u0028\u0029",
+            "name": "json_error",
+            "summary": "",
+            "url": "namespaces/default.html#function_json_error"
+        },                {
+            "fqsen": "\\yaml_load\u0028\u0029",
+            "name": "yaml_load",
+            "summary": "yaml\u8F6C\u6570\u7EC4",
+            "url": "namespaces/default.html#function_yaml_load"
+        },                {
+            "fqsen": "\\yaml_dump\u0028\u0029",
+            "name": "yaml_dump",
+            "summary": "\u6570\u7EC4\u8F6Cyaml",
+            "url": "namespaces/default.html#function_yaml_dump"
+        },                {
+            "fqsen": "\\yaml\u0028\u0029",
+            "name": "yaml",
+            "summary": "yaml\u8F6C\u6570\u7EC4\uFF0C\u6570\u7EC4\u8F6Cyaml\u683C\u5F0F",
+            "url": "namespaces/default.html#function_yaml"
+        },                {
+            "fqsen": "\\output_stream\u0028\u0029",
+            "name": "output_stream",
+            "summary": "\u5B9E\u65F6\u8F93\u51FA",
+            "url": "namespaces/default.html#function_output_stream"
+        },                {
+            "fqsen": "\\show_error\u0028\u0029",
+            "name": "show_error",
+            "summary": "\u663E\u793A\u9519\u8BEF\u63D0\u793A\u6846\uFF08Bootstrap\u00205\u0020\u6837\u5F0F\uFF09",
+            "url": "namespaces/default.html#function_show_error"
+        },                {
+            "fqsen": "\\show_403\u0028\u0029",
+            "name": "show_403",
+            "summary": "403",
+            "url": "namespaces/default.html#function_show_403"
+        },                {
+            "fqsen": "\\action_log\u0028\u0029",
+            "name": "action_log",
+            "summary": "\u8BB0\u5F55\u64CD\u4F5C\u65E5\u5FD7",
+            "url": "namespaces/default.html#function_action_log"
+        },                {
+            "fqsen": "\\run_cmd\u0028\u0029",
+            "name": "run_cmd",
+            "summary": "\u8FD0\u884C\u547D\u4EE4,\u4E0D\u7B49\u5F85\u547D\u4EE4\u6267\u884C\u5B8C\u6210",
+            "url": "namespaces/default.html#function_run_cmd"
+        },                {
+            "fqsen": "\\image_drive\u0028\u0029",
+            "name": "image_drive",
+            "summary": "\u56FE\u7247\u7C7B\u5904\u7406INIT",
+            "url": "namespaces/default.html#function_image_drive"
+        },                {
             "fqsen": "\\app\\helper\\GridView",
             "name": "GridView",
             "summary": "",
@@ -1286,6 +1961,51 @@ Search.appendIndex(
             "summary": "\u91CD\u5199a",
             "url": "classes/app-helper-Html.html#method_a"
         },                {
+            "fqsen": "\\app\\helper\\Image",
+            "name": "Image",
+            "summary": "",
+            "url": "classes/app-helper-Image.html"
+        },                {
+            "fqsen": "\\app\\helper\\Image\u003A\u003AgetInfo\u0028\u0029",
+            "name": "getInfo",
+            "summary": "\u53D6\u957F\u5BBD\u0020mime",
+            "url": "classes/app-helper-Image.html#method_getInfo"
+        },                {
+            "fqsen": "\\app\\helper\\Image\u003A\u003AisHorizontal\u0028\u0029",
+            "name": "isHorizontal",
+            "summary": "\u662F\u5426\u662F\u6A2A\u7248\n\u5373\u5BBD\u0020\u003E\u0020\u9AD8",
+            "url": "classes/app-helper-Image.html#method_isHorizontal"
+        },                {
+            "fqsen": "\\app\\helper\\Job",
+            "name": "Job",
+            "summary": "\u6240\u6709\u9700\u8981\u6839\u636E\u0020domain\u0020\u5207\u6362\u6570\u636E\u5E93\u7684\u4EFB\u52A1\u57FA\u7C7B",
+            "url": "classes/app-helper-Job.html"
+        },                {
+            "fqsen": "\\app\\helper\\Job\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "\u6267\u884C\u961F\u5217\u4EFB\u52A1",
+            "url": "classes/app-helper-Job.html#method_execute"
+        },                {
+            "fqsen": "\\app\\helper\\Job\u003A\u003Arun\u0028\u0029",
+            "name": "run",
+            "summary": "",
+            "url": "classes/app-helper-Job.html#method_run"
+        },                {
+            "fqsen": "\\app\\helper\\Job\u003A\u003A\u0024domain",
+            "name": "domain",
+            "summary": "",
+            "url": "classes/app-helper-Job.html#property_domain"
+        },                {
+            "fqsen": "\\app\\helper\\Job\u003A\u003A\u0024ttr",
+            "name": "ttr",
+            "summary": "",
+            "url": "classes/app-helper-Job.html#property_ttr"
+        },                {
+            "fqsen": "\\app\\helper\\Job\u003A\u003A\u0024attempts",
+            "name": "attempts",
+            "summary": "",
+            "url": "classes/app-helper-Job.html#property_attempts"
+        },                {
             "fqsen": "\\app\\helper\\Language",
             "name": "Language",
             "summary": "",
@@ -1306,6 +2026,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-Language.html#method_mult"
         },                {
+            "fqsen": "\\app\\helper\\LinkPager",
+            "name": "LinkPager",
+            "summary": "",
+            "url": "classes/app-helper-LinkPager.html"
+        },                {
+            "fqsen": "\\app\\helper\\LinkPager\u003A\u003ArenderPageButton\u0028\u0029",
+            "name": "renderPageButton",
+            "summary": "",
+            "url": "classes/app-helper-LinkPager.html#method_renderPageButton"
+        },                {
+            "fqsen": "\\app\\helper\\LinkPager\u003A\u003AcreateUrl\u0028\u0029",
+            "name": "createUrl",
+            "summary": "\u81EA\u5B9A\u4E49\u521B\u5EFA\u0020URL\u0020\u7684\u65B9\u6CD5\u3002",
+            "url": "classes/app-helper-LinkPager.html#method_createUrl"
+        },                {
+            "fqsen": "\\app\\helper\\LinkPager\u003A\u003A\u0024url",
+            "name": "url",
+            "summary": "",
+            "url": "classes/app-helper-LinkPager.html#property_url"
+        },                {
             "fqsen": "\\app\\helper\\ListView",
             "name": "ListView",
             "summary": "",
@@ -1318,8 +2058,48 @@ Search.appendIndex(
         },                {
             "fqsen": "\\app\\helper\\Mail\u003A\u003Asend\u0028\u0029",
             "name": "send",
-            "summary": "\u53D1\u9001\u90AE\u4EF6",
+            "summary": "\u53D1\u9001\u6A21\u677F\u90AE\u4EF6",
             "url": "classes/app-helper-Mail.html#method_send"
+        },                {
+            "fqsen": "\\app\\helper\\Mail\u003A\u003AsendBody\u0028\u0029",
+            "name": "sendBody",
+            "summary": "\u53D1\u9001\u539F\u59CB\u5185\u5BB9\u90AE\u4EF6",
+            "url": "classes/app-helper-Mail.html#method_sendBody"
+        },                {
+            "fqsen": "\\app\\helper\\Mail\u003A\u003AprocessSending\u0028\u0029",
+            "name": "processSending",
+            "summary": "\u6838\u5FC3\u53D1\u9001\u903B\u8F91",
+            "url": "classes/app-helper-Mail.html#method_processSending"
+        },                {
+            "fqsen": "\\app\\helper\\Mail\u003A\u003AvalidateEmail\u0028\u0029",
+            "name": "validateEmail",
+            "summary": "",
+            "url": "classes/app-helper-Mail.html#method_validateEmail"
+        },                {
+            "fqsen": "\\app\\helper\\Mail\u003A\u003AcheckRateLimit\u0028\u0029",
+            "name": "checkRateLimit",
+            "summary": "",
+            "url": "classes/app-helper-Mail.html#method_checkRateLimit"
+        },                {
+            "fqsen": "\\app\\helper\\Mail\u003A\u003AinitMailComponent\u0028\u0029",
+            "name": "initMailComponent",
+            "summary": "",
+            "url": "classes/app-helper-Mail.html#method_initMailComponent"
+        },                {
+            "fqsen": "\\app\\helper\\Mail\u003A\u003AhandleAttachments\u0028\u0029",
+            "name": "handleAttachments",
+            "summary": "",
+            "url": "classes/app-helper-Mail.html#method_handleAttachments"
+        },                {
+            "fqsen": "\\app\\helper\\Mail\u003A\u003AdetectMimeType\u0028\u0029",
+            "name": "detectMimeType",
+            "summary": "",
+            "url": "classes/app-helper-Mail.html#method_detectMimeType"
+        },                {
+            "fqsen": "\\app\\helper\\Mail\u003A\u003AgetFromAddress\u0028\u0029",
+            "name": "getFromAddress",
+            "summary": "",
+            "url": "classes/app-helper-Mail.html#method_getFromAddress"
         },                {
             "fqsen": "\\app\\helper\\Markdown",
             "name": "Markdown",
@@ -1335,6 +2115,21 @@ Search.appendIndex(
             "name": "Menu",
             "summary": "",
             "url": "classes/app-helper-Menu.html"
+        },                {
+            "fqsen": "\\app\\helper\\MenuMarket",
+            "name": "MenuMarket",
+            "summary": "",
+            "url": "classes/app-helper-MenuMarket.html"
+        },                {
+            "fqsen": "\\app\\helper\\Migration",
+            "name": "Migration",
+            "summary": "",
+            "url": "classes/app-helper-Migration.html"
+        },                {
+            "fqsen": "\\app\\helper\\Migration\u003A\u003AcreateTable\u0028\u0029",
+            "name": "createTable",
+            "summary": "",
+            "url": "classes/app-helper-Migration.html#method_createTable"
         },                {
             "fqsen": "\\app\\helper\\Mime",
             "name": "Mime",
@@ -1365,6 +2160,11 @@ Search.appendIndex(
             "name": "Number",
             "summary": "",
             "url": "classes/app-helper-Number.html"
+        },                {
+            "fqsen": "\\app\\helper\\Number\u003A\u003Asales\u0028\u0029",
+            "name": "sales",
+            "summary": "\u9500\u91CF\u663E\u793A\n1000\u663E\u793A\u4E3A1k",
+            "url": "classes/app-helper-Number.html#method_sales"
         },                {
             "fqsen": "\\app\\helper\\Number\u003A\u003Ashow\u0028\u0029",
             "name": "show",
@@ -1406,6 +2206,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-OpenApiController.html#property_token"
         },                {
+            "fqsen": "\\app\\helper\\Pdf",
+            "name": "Pdf",
+            "summary": "",
+            "url": "classes/app-helper-Pdf.html"
+        },                {
+            "fqsen": "\\app\\helper\\Pdf\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "https\u003A\/\/mpdf.github.io\/",
+            "url": "classes/app-helper-Pdf.html#method_init"
+        },                {
+            "fqsen": "\\app\\helper\\Pdf\u003A\u003Aget_info\u0028\u0029",
+            "name": "get_info",
+            "summary": "\u5224\u65ADPDF\u662F\u6A2A\u6392\u8FD8\u662F\u7AD6\u6392\nArray\n\u0028\n\u0020\u0020\u0020\u0020\u005Bheader\u005D\u0020\u003D\u003E\u0020Array\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0028\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u005BModDate\u005D\u0020\u003D\u003E\u0020D\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u005BCreator\u005D\u0020\u003D\u003E\u0020Microsoft\u00AE\u0020PowerPoint\u00AE\u00202019\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u005BCreationDate\u005D\u0020\u003D\u003E\u0020D\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u005BProducer\u005D\u0020\u003D\u003E\u0020Microsoft\u00AE\u0020PowerPoint\u00AE\u00202019\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u005BAuthor\u005D\u0020\u003D\u003E\u0020Microsoft\u0020Office\u0020User\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u005BTitle\u005D\u0020\u003D\u003E\u0020PowerPoint\u0020\u6F14\u793A\u6587\u7A3F\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0029\n\u0020\u0020\u0020\u0020\u005Bdimensions\u005D\u0020\u003D\u003E\u0020Array\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0028\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u005B0\u005D\u0020\u003D\u003E\u0020960\u0020\u0020\u0020\/\/\u0020\u5BBD\u5EA6\uFF08\u5355\u4F4D\uFF1A\u70B9\uFF09\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u005B1\u005D\u0020\u003D\u003E\u0020540\u0020\u0020\u0020\/\/\u0020\u9AD8\u5EA6\uFF08\u5355\u4F4D\uFF1A\u70B9\uFF09\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0029\n\u0020\u0020\u0020\u0020\u005Bdimensions_type\u005D\u0020\u003D\u003E\u00202\u0020\u0020\/\/\u00202\u8868\u793A\u6A2A\u7248\uFF0C1\u8868\u793A\u7AD6\u7248\n\u0029",
+            "url": "classes/app-helper-Pdf.html#method_get_info"
+        },                {
+            "fqsen": "\\app\\helper\\Pdf\u003A\u003Aget_pages\u0028\u0029",
+            "name": "get_pages",
+            "summary": "\u53D6pdf\u9875\u6570",
+            "url": "classes/app-helper-Pdf.html#method_get_pages"
+        },                {
+            "fqsen": "\\app\\helper\\Pdf\u003A\u003Aset_info\u0028\u0029",
+            "name": "set_info",
+            "summary": "\u8BBE\u7F6E\u6807\u9898\u7B49\u4FE1\u606F",
+            "url": "classes/app-helper-Pdf.html#method_set_info"
+        },                {
+            "fqsen": "\\app\\helper\\Price",
+            "name": "Price",
+            "summary": "",
+            "url": "classes/app-helper-Price.html"
+        },                {
+            "fqsen": "\\app\\helper\\Price\u003A\u003Anoup\u0028\u0029",
+            "name": "noup",
+            "summary": "float\u4E0D\u8FDB\u4F4D\uFF0C\u59823.145\u0020\u8FD4\u56DE3.14\n\u8FDB\u4F4D\u7684\u6709\u9ED8\u8BA4round\u00283.145\u0029\u0020\u6216sprintf\u0028\u0022\u0025.2f\u0022,3.145\u0029\u003B",
+            "url": "classes/app-helper-Price.html#method_noup"
+        },                {
+            "fqsen": "\\app\\helper\\Price\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "\u56DB\u820D\u4E94\u5165",
+            "url": "classes/app-helper-Price.html#method_up"
+        },                {
+            "fqsen": "\\app\\helper\\Price\u003A\u003AtoChinese\u0028\u0029",
+            "name": "toChinese",
+            "summary": "\u6570\u5B57\u8F6C\u4E2D\u6587\uFF0C\u975E\u91D1\u989D\u8BFB\u6CD5",
+            "url": "classes/app-helper-Price.html#method_toChinese"
+        },                {
             "fqsen": "\\app\\helper\\Request",
             "name": "Request",
             "summary": "",
@@ -1420,6 +2265,36 @@ Search.appendIndex(
             "name": "trimArray",
             "summary": "",
             "url": "classes/app-helper-Request.html#method_trimArray"
+        },                {
+            "fqsen": "\\app\\helper\\Rsa",
+            "name": "Rsa",
+            "summary": "",
+            "url": "classes/app-helper-Rsa.html"
+        },                {
+            "fqsen": "\\app\\helper\\Rsa\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/app-helper-Rsa.html#method___construct"
+        },                {
+            "fqsen": "\\app\\helper\\Rsa\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/app-helper-Rsa.html#method_create"
+        },                {
+            "fqsen": "\\app\\helper\\Rsa\u003A\u003Aencode\u0028\u0029",
+            "name": "encode",
+            "summary": "",
+            "url": "classes/app-helper-Rsa.html#method_encode"
+        },                {
+            "fqsen": "\\app\\helper\\Rsa\u003A\u003Adecode\u0028\u0029",
+            "name": "decode",
+            "summary": "",
+            "url": "classes/app-helper-Rsa.html#method_decode"
+        },                {
+            "fqsen": "\\app\\helper\\Rsa\u003A\u003A\u0024rsa",
+            "name": "rsa",
+            "summary": "",
+            "url": "classes/app-helper-Rsa.html#property_rsa"
         },                {
             "fqsen": "\\app\\helper\\SellerAcl",
             "name": "SellerAcl",
@@ -1486,25 +2361,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-SellerController.html#property_theme_name"
         },                {
-            "fqsen": "\\app\\helper\\SellerController\u003A\u003A\u0024seller_id",
-            "name": "seller_id",
-            "summary": "",
-            "url": "classes/app-helper-SellerController.html#property_seller_id"
-        },                {
             "fqsen": "\\app\\helper\\SellerController\u003A\u003A\u0024needLogin",
             "name": "needLogin",
             "summary": "",
             "url": "classes/app-helper-SellerController.html#property_needLogin"
         },                {
-            "fqsen": "\\app\\helper\\SellerController\u003A\u003A\u0024seller",
-            "name": "seller",
-            "summary": "",
-            "url": "classes/app-helper-SellerController.html#property_seller"
-        },                {
             "fqsen": "\\app\\helper\\SellerMenu",
             "name": "SellerMenu",
             "summary": "",
             "url": "classes/app-helper-SellerMenu.html"
+        },                {
+            "fqsen": "\\app\\helper\\SellerMenuMarket",
+            "name": "SellerMenuMarket",
+            "summary": "",
+            "url": "classes/app-helper-SellerMenuMarket.html"
         },                {
             "fqsen": "\\app\\helper\\Sms",
             "name": "Sms",
@@ -1513,18 +2383,33 @@ Search.appendIndex(
         },                {
             "fqsen": "\\app\\helper\\Sms\u003A\u003AgetDrive\u0028\u0029",
             "name": "getDrive",
-            "summary": "",
+            "summary": "\u83B7\u53D6\u5F53\u524D\u77ED\u4FE1\u9A71\u52A8\u7C7B",
             "url": "classes/app-helper-Sms.html#method_getDrive"
         },                {
             "fqsen": "\\app\\helper\\Sms\u003A\u003Aless\u0028\u0029",
             "name": "less",
-            "summary": "",
+            "summary": "\u68C0\u67E5\u77ED\u4FE1\u4F59\u91CF",
             "url": "classes/app-helper-Sms.html#method_less"
         },                {
             "fqsen": "\\app\\helper\\Sms\u003A\u003Asend\u0028\u0029",
             "name": "send",
-            "summary": "",
+            "summary": "\u901A\u8FC7\u6A21\u677FID\u53D1\u9001\u77ED\u4FE1",
             "url": "classes/app-helper-Sms.html#method_send"
+        },                {
+            "fqsen": "\\app\\helper\\Sms\u003A\u003AsendBody\u0028\u0029",
+            "name": "sendBody",
+            "summary": "\u76F4\u63A5\u53D1\u9001\u77ED\u4FE1\u5185\u5BB9\uFF08\u4E0D\u4F9D\u8D56\u6A21\u677F\uFF09",
+            "url": "classes/app-helper-Sms.html#method_sendBody"
+        },                {
+            "fqsen": "\\app\\helper\\Sms\u003A\u003AcheckRateLimit\u0028\u0029",
+            "name": "checkRateLimit",
+            "summary": "\u9891\u7387\u9650\u5236\u68C0\u67E5",
+            "url": "classes/app-helper-Sms.html#method_checkRateLimit"
+        },                {
+            "fqsen": "\\app\\helper\\Sms\u003A\u003AvalidatePhone\u0028\u0029",
+            "name": "validatePhone",
+            "summary": "\u9A8C\u8BC1\u624B\u673A\u53F7\u683C\u5F0F",
+            "url": "classes/app-helper-Sms.html#method_validatePhone"
         },                {
             "fqsen": "\\app\\helper\\StoreAcl",
             "name": "StoreAcl",
@@ -1596,25 +2481,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-StoreController.html#property_theme_name"
         },                {
-            "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024store_id",
-            "name": "store_id",
-            "summary": "",
-            "url": "classes/app-helper-StoreController.html#property_store_id"
-        },                {
             "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024needLogin",
             "name": "needLogin",
             "summary": "",
             "url": "classes/app-helper-StoreController.html#property_needLogin"
         },                {
-            "fqsen": "\\app\\helper\\StoreController\u003A\u003A\u0024store",
-            "name": "store",
-            "summary": "",
-            "url": "classes/app-helper-StoreController.html#property_store"
-        },                {
             "fqsen": "\\app\\helper\\StoreMenu",
             "name": "StoreMenu",
             "summary": "",
             "url": "classes/app-helper-StoreMenu.html"
+        },                {
+            "fqsen": "\\app\\helper\\StoreMenuMarket",
+            "name": "StoreMenuMarket",
+            "summary": "",
+            "url": "classes/app-helper-StoreMenuMarket.html"
         },                {
             "fqsen": "\\app\\helper\\Str",
             "name": "Str",
@@ -1731,6 +2611,11 @@ Search.appendIndex(
             "summary": "\u53D6\u6BCF\u6708\neveryMonth\u0028\u00272023\u002D01\u002D01\u0027,\u00272023\u002D12\u002D31\u0027\u0029",
             "url": "classes/app-helper-Time.html#method_everyMonth"
         },                {
+            "fqsen": "\\app\\helper\\Time\u003A\u003AgetLastDay\u0028\u0029",
+            "name": "getLastDay",
+            "summary": "\u53D6\u6708\u6700\u540E\u4E00\u5929",
+            "url": "classes/app-helper-Time.html#method_getLastDay"
+        },                {
             "fqsen": "\\app\\helper\\Time\u003A\u003Aage\u0028\u0029",
             "name": "age",
             "summary": "\u591A\u5C11\u5C81",
@@ -1793,17 +2678,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\app\\helper\\TraitMenu\u003A\u003Aget\u0028\u0029",
             "name": "get",
-            "summary": "",
+            "summary": "\u53D6\u83DC\u5355",
             "url": "classes/app-helper-TraitMenu.html#method_get"
         },                {
             "fqsen": "\\app\\helper\\TraitMenu\u003A\u003Aset\u0028\u0029",
             "name": "set",
-            "summary": "",
+            "summary": "\u8BBE\u7F6E\u72EC\u7ACB\u83DC\u5355\u9879",
             "url": "classes/app-helper-TraitMenu.html#method_set"
         },                {
             "fqsen": "\\app\\helper\\TraitMenu\u003A\u003AaddGroup\u0028\u0029",
             "name": "addGroup",
-            "summary": "",
+            "summary": "\u6DFB\u52A0\u5206\u7EC4\u83DC\u5355",
             "url": "classes/app-helper-TraitMenu.html#method_addGroup"
         },                {
             "fqsen": "\\app\\helper\\TraitMenu\u003A\u003A\u0024_menu",
@@ -1816,6 +2701,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-TraitMenu.html#property__group"
         },                {
+            "fqsen": "\\app\\helper\\TraitSaas",
+            "name": "TraitSaas",
+            "summary": "",
+            "url": "classes/app-helper-TraitSaas.html"
+        },                {
+            "fqsen": "\\app\\helper\\TraitSaas\u003A\u003AinitSaasTenantDatabase\u0028\u0029",
+            "name": "initSaasTenantDatabase",
+            "summary": "\u521D\u59CB\u5316SaaS\u79DF\u6237\u6570\u636E\u5E93\u8FDE\u63A5",
+            "url": "classes/app-helper-TraitSaas.html#method_initSaasTenantDatabase"
+        },                {
+            "fqsen": "\\app\\helper\\TraitSaas\u003A\u003AgetSaasDomainFromRequest\u0028\u0029",
+            "name": "getSaasDomainFromRequest",
+            "summary": "\u4ECE\u8BF7\u6C42\u4E2D\u83B7\u53D6SaaS\u57DF\u540D",
+            "url": "classes/app-helper-TraitSaas.html#method_getSaasDomainFromRequest"
+        },                {
+            "fqsen": "\\vue_method\u0028\u0029",
+            "name": "vue_method",
+            "summary": "",
+            "url": "namespaces/default.html#function_vue_method"
+        },                {
+            "fqsen": "\\vue_data\u0028\u0029",
+            "name": "vue_data",
+            "summary": "",
+            "url": "namespaces/default.html#function_vue_data"
+        },                {
             "fqsen": "\\app\\helper\\Uploader",
             "name": "Uploader",
             "summary": "",
@@ -1823,17 +2733,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\app\\helper\\Uploader\u003A\u003AactionHash\u0028\u0029",
             "name": "actionHash",
-            "summary": "",
+            "summary": "\u4E0A\u4F20\u6587\u4EF6\u0020hash\u5224\u65AD",
             "url": "classes/app-helper-Uploader.html#method_actionHash"
         },                {
             "fqsen": "\\app\\helper\\Uploader\u003A\u003AgetUploadUrl\u0028\u0029",
             "name": "getUploadUrl",
-            "summary": "",
+            "summary": "\u83B7\u53D6\u4E0A\u4F20\u7684url",
             "url": "classes/app-helper-Uploader.html#method_getUploadUrl"
         },                {
             "fqsen": "\\app\\helper\\Uploader\u003A\u003AactionUpload\u0028\u0029",
             "name": "actionUpload",
-            "summary": "",
+            "summary": "\u4E0A\u4F20\u6587\u4EF6",
             "url": "classes/app-helper-Uploader.html#method_actionUpload"
         },                {
             "fqsen": "\\app\\helper\\Uploader\u003A\u003AgetHashData\u0028\u0029",
@@ -1855,6 +2765,11 @@ Search.appendIndex(
             "name": "saveFilePath",
             "summary": "",
             "url": "classes/app-helper-Uploader.html#property_saveFilePath"
+        },                {
+            "fqsen": "\\app\\helper\\Uploader\u003A\u003A\u0024allowExensions",
+            "name": "allowExensions",
+            "summary": "",
+            "url": "classes/app-helper-Uploader.html#property_allowExensions"
         },                {
             "fqsen": "\\app\\helper\\Url",
             "name": "Url",
@@ -1976,6 +2891,21 @@ Search.appendIndex(
             "summary": "\u662F\u5426\u4F7F\u7528\u7F13\u5B58",
             "url": "classes/app-helper-ZCurlAliyun.html#property_use_cache"
         },                {
+            "fqsen": "\\app\\helper\\Zip",
+            "name": "Zip",
+            "summary": "",
+            "url": "classes/app-helper-Zip.html"
+        },                {
+            "fqsen": "\\app\\helper\\Zip\u003A\u003Aextract\u0028\u0029",
+            "name": "extract",
+            "summary": "\u89E3\u538B\u538B\u7F29\u5305",
+            "url": "classes/app-helper-Zip.html#method_extract"
+        },                {
+            "fqsen": "\\app\\helper\\Zip\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "\u521B\u5EFA\u538B\u7F29\u5305",
+            "url": "classes/app-helper-Zip.html#method_create"
+        },                {
             "fqsen": "\\app\\helper\\ZTianYanCha",
             "name": "ZTianYanCha",
             "summary": "\u5929\u773C\u67E5",
@@ -2016,6 +2946,916 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/app-helper-ZTianYanCha.html#property_url"
         },                {
+            "fqsen": "\\app\\pack\\captcha\\Captcha",
+            "name": "Captcha",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Captcha.html"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Captcha\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Captcha.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Captcha\u003A\u003Averify\u0028\u0029",
+            "name": "verify",
+            "summary": "get_pack\u0028\u0027captcha.Captcha\u0027,\u0020\u0027verify\u0027,\u0020\u005B\u0024ignore_expire\u005D\u0029\u003B",
+            "url": "classes/app-pack-captcha-Captcha.html#method_verify"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Captcha\u003A\u003Ajs\u0028\u0029",
+            "name": "js",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Captcha.html#method_js"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Tencent",
+            "name": "Tencent",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Tencent.html"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Tencent\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Tencent.html#method___construct"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Tencent\u003A\u003Acheck\u0028\u0029",
+            "name": "check",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Tencent.html#method_check"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Tencent\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Tencent.html#method_get"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Tencent\u003A\u003Abutton\u0028\u0029",
+            "name": "button",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Tencent.html#method_button"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Tencent\u003A\u003Ajs_file\u0028\u0029",
+            "name": "js_file",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Tencent.html#method_js_file"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Tencent\u003A\u003Ajs_code\u0028\u0029",
+            "name": "js_code",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Tencent.html#method_js_code"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Tencent\u003A\u003A\u0024form",
+            "name": "form",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Tencent.html#property_form"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Tencent\u003A\u003A\u0024config",
+            "name": "config",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Tencent.html#property_config"
+        },                {
+            "fqsen": "\\app\\pack\\captcha\\Tencent\u003A\u003A\u0024type",
+            "name": "type",
+            "summary": "",
+            "url": "classes/app-pack-captcha-Tencent.html#property_type"
+        },                {
+            "fqsen": "\\app\\pack\\charts\\Echarts",
+            "name": "Echarts",
+            "summary": "",
+            "url": "classes/app-pack-charts-Echarts.html"
+        },                {
+            "fqsen": "\\app\\pack\\charts\\Echarts\u003A\u003Aset\u0028\u0029",
+            "name": "set",
+            "summary": "",
+            "url": "classes/app-pack-charts-Echarts.html#method_set"
+        },                {
+            "fqsen": "\\app\\pack\\charts\\Echarts\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-pack-charts-Echarts.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\charts\\Echarts\u003A\u003A\u0024data",
+            "name": "data",
+            "summary": "",
+            "url": "classes/app-pack-charts-Echarts.html#property_data"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Convert",
+            "name": "Convert",
+            "summary": "\u5730\u56FE\u5750\u6807\u8F6C\u6362",
+            "url": "classes/app-pack-map-Convert.html"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Convert\u003A\u003Anone\u0028\u0029",
+            "name": "none",
+            "summary": "\u4E0D\u8F6C\u6362\u5750\u6807",
+            "url": "classes/app-pack-map-Convert.html#method_none"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Convert\u003A\u003Awgs84_gcj02\u0028\u0029",
+            "name": "wgs84_gcj02",
+            "summary": "CGCS2000\uFF08WGS84\uFF09\u0020\u8F6C\u6210\u0020GCJ02",
+            "url": "classes/app-pack-map-Convert.html#method_wgs84_gcj02"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Convert\u003A\u003Aoutput\u0028\u0029",
+            "name": "output",
+            "summary": "",
+            "url": "classes/app-pack-map-Convert.html#method_output"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Convert\u003A\u003Atransformlat\u0028\u0029",
+            "name": "transformlat",
+            "summary": "",
+            "url": "classes/app-pack-map-Convert.html#method_transformlat"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Convert\u003A\u003Atransformlng\u0028\u0029",
+            "name": "transformlng",
+            "summary": "",
+            "url": "classes/app-pack-map-Convert.html#method_transformlng"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Convert\u003A\u003Aout_of_china\u0028\u0029",
+            "name": "out_of_china",
+            "summary": "",
+            "url": "classes/app-pack-map-Convert.html#method_out_of_china"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Map",
+            "name": "Map",
+            "summary": "",
+            "url": "classes/app-pack-map-Map.html"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Tencent",
+            "name": "Tencent",
+            "summary": "",
+            "url": "classes/app-pack-map-Tencent.html"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Tencent\u003A\u003AgetLat\u0028\u0029",
+            "name": "getLat",
+            "summary": "\u817E\u8BAF\u5730\u56FE\nhttps\u003A\/\/lbs.qq.com\/dev\/console\/key\/setting",
+            "url": "classes/app-pack-map-Tencent.html#method_getLat"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Tencent\u003A\u003AgetAddress\u0028\u0029",
+            "name": "getAddress",
+            "summary": "\u6839\u636E\u5750\u6807\u70B9\u663E\u793A\u5730\u5740\u0020\u7EAC\u5EA6\u0020\u7ECF\u5EA6",
+            "url": "classes/app-pack-map-Tencent.html#method_getAddress"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Tiandi",
+            "name": "Tiandi",
+            "summary": "\u5929\u5730\u56FE\nhttp\u003A\/\/lbs.tianditu.gov.cn\/server\/search2.html",
+            "url": "classes/app-pack-map-Tiandi.html"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Tiandi\u003A\u003Aget_tk\u0028\u0029",
+            "name": "get_tk",
+            "summary": "\u670D\u52A1\u5668\u7AEF",
+            "url": "classes/app-pack-map-Tiandi.html#method_get_tk"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Tiandi\u003A\u003Aget_tk_sever\u0028\u0029",
+            "name": "get_tk_sever",
+            "summary": "\u6D4F\u89C8\u5668\u7AEF",
+            "url": "classes/app-pack-map-Tiandi.html#method_get_tk_sever"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Tiandi\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/app-pack-map-Tiandi.html#method_get"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Tiandi\u003A\u003AgetAddress\u0028\u0029",
+            "name": "getAddress",
+            "summary": "\u6839\u636Elat\u0020lng\u53D6\u5730\u5740",
+            "url": "classes/app-pack-map-Tiandi.html#method_getAddress"
+        },                {
+            "fqsen": "\\app\\pack\\map\\Tiandi\u003A\u003AgetLat\u0028\u0029",
+            "name": "getLat",
+            "summary": "\u6839\u636E\u5730\u5740\u53D6lat\u0020lng",
+            "url": "classes/app-pack-map-Tiandi.html#method_getLat"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Gateway",
+            "name": "Gateway",
+            "summary": "",
+            "url": "classes/app-pack-notice-Gateway.html"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Gateway\u003A\u003Asend\u0028\u0029",
+            "name": "send",
+            "summary": "\u53D1\u9001\u6D88\u606F",
+            "url": "classes/app-pack-notice-Gateway.html#method_send"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Gateway\u003A\u003Ajs\u0028\u0029",
+            "name": "js",
+            "summary": "get_pack\u0028\u0027notice.Gateway\u0027,\u0020\u0027js\u0027\u0029\u003B",
+            "url": "classes/app-pack-notice-Gateway.html#method_js"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Gateway\u003A\u003Aencode\u0028\u0029",
+            "name": "encode",
+            "summary": "",
+            "url": "classes/app-pack-notice-Gateway.html#method_encode"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Notice",
+            "name": "Notice",
+            "summary": "",
+            "url": "classes/app-pack-notice-Notice.html"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Notice\u003A\u003AaddSys\u0028\u0029",
+            "name": "addSys",
+            "summary": "\u6DFB\u52A0\u7CFB\u7EDF\u6D88\u606F\nget_pack\u0028\u0027notice.Notice\u0027,\u0020\u0027addSys\u0027,\u005B\u0020\u0024title,\u0024body,\u0024data\u0020\u003D\u0020\u005B\u005D\u005D\u0029\u003B",
+            "url": "classes/app-pack-notice-Notice.html#method_addSys"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Notice\u003A\u003Aadd\u0028\u0029",
+            "name": "add",
+            "summary": "\u6DFB\u52A0\u5230\u6D88\u606F\u961F\u5217\n1.\u8BB0\u5F55\u5230\u6D88\u606F\u6570\u636E\u8868\n2.\u8C03\u7528pusher\u53D1\u6D88\u606F\nget_pack\u0028\u0027notice.Notice\u0027,\u0020\u0027add\u0027,\u005B\u0024from_user_id,\u0024to_user_id\u0020,\u0024type,\u0020\u0024title,\u0024body,\u0024data\u0020\u003D\u0020\u005B\u005D\u005D\u0029\u003B",
+            "url": "classes/app-pack-notice-Notice.html#method_add"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Notice\u003A\u003Ajs\u0028\u0029",
+            "name": "js",
+            "summary": "get_pack\u0028\u0027notice.Notice\u0027,\u0020\u0027js\u0027\u0029\u003B",
+            "url": "classes/app-pack-notice-Notice.html#method_js"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Notice\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-pack-notice-Notice.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Notice\u003A\u003Asend\u0028\u0029",
+            "name": "send",
+            "summary": "\u53D1\u9001\u6D88\u606F",
+            "url": "classes/app-pack-notice-Notice.html#method_send"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\Notice\u003A\u003AsendToApp\u0028\u0029",
+            "name": "sendToApp",
+            "summary": "\u53D1\u6D88\u606F\u7ED9APP",
+            "url": "classes/app-pack-notice-Notice.html#method_sendToApp"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\PusherChannels",
+            "name": "PusherChannels",
+            "summary": "",
+            "url": "classes/app-pack-notice-PusherChannels.html"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\PusherChannels\u003A\u003Ajs\u0028\u0029",
+            "name": "js",
+            "summary": "get_pack\u0028\u0027notice.Pusher\u0027,\u0020\u0027js\u0027\u0029\u003B",
+            "url": "classes/app-pack-notice-PusherChannels.html#method_js"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\PusherChannels\u003A\u003Asend\u0028\u0029",
+            "name": "send",
+            "summary": "get_pack\u0028\u0027notice.Pusher\u0027,\u0020\u0027send\u0027,\u0020\u005B\u0020\u005B\u005D\u0020\u005D\u0029\u003B",
+            "url": "classes/app-pack-notice-PusherChannels.html#method_send"
+        },                {
+            "fqsen": "\\app\\pack\\notice\\PusherChannels\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-pack-notice-PusherChannels.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\OrderNum",
+            "name": "OrderNum",
+            "summary": "",
+            "url": "classes/app-pack-order-num-OrderNum.html"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\OrderNum\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "\u0024order_num\u0020\u003D\u0020get_pack\u0028\u0027order_num.OrderNum\u0027,\u0020\u0027create\u0027\u0029\u003B",
+            "url": "classes/app-pack-order-num-OrderNum.html#method_create"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake",
+            "name": "Snowflake",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#method___construct"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003AnextId\u0028\u0029",
+            "name": "nextId",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#method_nextId"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003AcurrentTimestamp\u0028\u0029",
+            "name": "currentTimestamp",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#method_currentTimestamp"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003AwaitNextMillis\u0028\u0029",
+            "name": "waitNextMillis",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#method_waitNextMillis"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003ASEQUENCE_BITS",
+            "name": "SEQUENCE_BITS",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#constant_SEQUENCE_BITS"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003AWORKER_ID_BITS",
+            "name": "WORKER_ID_BITS",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#constant_WORKER_ID_BITS"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003ADATACENTER_ID_BITS",
+            "name": "DATACENTER_ID_BITS",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#constant_DATACENTER_ID_BITS"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003AMAX_WORKER_ID",
+            "name": "MAX_WORKER_ID",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#constant_MAX_WORKER_ID"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003AMAX_DATACENTER_ID",
+            "name": "MAX_DATACENTER_ID",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#constant_MAX_DATACENTER_ID"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003ASEQUENCE_MASK",
+            "name": "SEQUENCE_MASK",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#constant_SEQUENCE_MASK"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003A\u0024workerId",
+            "name": "workerId",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#property_workerId"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003A\u0024datacenterId",
+            "name": "datacenterId",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#property_datacenterId"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003A\u0024sequence",
+            "name": "sequence",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#property_sequence"
+        },                {
+            "fqsen": "\\app\\pack\\order_num\\Snowflake\u003A\u003A\u0024lastTimestamp",
+            "name": "lastTimestamp",
+            "summary": "",
+            "url": "classes/app-pack-order-num-Snowflake.html#property_lastTimestamp"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Aliyun",
+            "name": "Aliyun",
+            "summary": "",
+            "url": "classes/app-pack-oss-Aliyun.html"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Aliyun\u003A\u003AgetUrl\u0028\u0029",
+            "name": "getUrl",
+            "summary": "\u83B7\u53D6\u79C1\u6709\u7B7E\u540DURL\uFF0C1\u5C0F\u65F6\u8FC7\u671F",
+            "url": "classes/app-pack-oss-Aliyun.html#method_getUrl"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Aliyun\u003A\u003AinitAliyun\u0028\u0029",
+            "name": "initAliyun",
+            "summary": "",
+            "url": "classes/app-pack-oss-Aliyun.html#method_initAliyun"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Aliyun\u003A\u003Aupload\u0028\u0029",
+            "name": "upload",
+            "summary": "\u4E0A\u4F20\u6587\u4EF6\u5230\u963F\u91CC\u4E91OSS",
+            "url": "classes/app-pack-oss-Aliyun.html#method_upload"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Aliyun\u003A\u003Alists\u0028\u0029",
+            "name": "lists",
+            "summary": "",
+            "url": "classes/app-pack-oss-Aliyun.html#method_lists"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Aliyun\u003A\u003A\u0024obj",
+            "name": "obj",
+            "summary": "",
+            "url": "classes/app-pack-oss-Aliyun.html#property_obj"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Aliyun\u003A\u003A\u0024oss_url",
+            "name": "oss_url",
+            "summary": "",
+            "url": "classes/app-pack-oss-Aliyun.html#property_oss_url"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Aliyun\u003A\u003A\u0024bucket",
+            "name": "bucket",
+            "summary": "",
+            "url": "classes/app-pack-oss-Aliyun.html#property_bucket"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Baidu",
+            "name": "Baidu",
+            "summary": "",
+            "url": "classes/app-pack-oss-Baidu.html"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Baidu\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-pack-oss-Baidu.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Baidu\u003A\u003Aupload\u0028\u0029",
+            "name": "upload",
+            "summary": "\u4E0A\u4F20",
+            "url": "classes/app-pack-oss-Baidu.html#method_upload"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Baidu\u003A\u003AgetUrl\u0028\u0029",
+            "name": "getUrl",
+            "summary": "\u751F\u6210\u94FE\u63A5",
+            "url": "classes/app-pack-oss-Baidu.html#method_getUrl"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Baidu\u003A\u003A\u0024bucket",
+            "name": "bucket",
+            "summary": "",
+            "url": "classes/app-pack-oss-Baidu.html#property_bucket"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Baidu\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/app-pack-oss-Baidu.html#property_client"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Oss",
+            "name": "Oss",
+            "summary": "",
+            "url": "classes/app-pack-oss-Oss.html"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Oss\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-pack-oss-Oss.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Oss\u003A\u003Aupload\u0028\u0029",
+            "name": "upload",
+            "summary": "",
+            "url": "classes/app-pack-oss-Oss.html#method_upload"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Oss\u003A\u003AgetObjectUrl\u0028\u0029",
+            "name": "getObjectUrl",
+            "summary": "",
+            "url": "classes/app-pack-oss-Oss.html#method_getObjectUrl"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Oss\u003A\u003AgetObject\u0028\u0029",
+            "name": "getObject",
+            "summary": "",
+            "url": "classes/app-pack-oss-Oss.html#method_getObject"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Tencent",
+            "name": "Tencent",
+            "summary": "https\u003A\/\/github.com\/tencentyun\/cos\u002Dphp\u002Dsdk\u002Dv5",
+            "url": "classes/app-pack-oss-Tencent.html"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Tencent\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-pack-oss-Tencent.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Tencent\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/app-pack-oss-Tencent.html#method_create"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Tencent\u003A\u003Aupload\u0028\u0029",
+            "name": "upload",
+            "summary": "\u4E0A\u4F20\u6587\u4EF6",
+            "url": "classes/app-pack-oss-Tencent.html#method_upload"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Tencent\u003A\u003Alists\u0028\u0029",
+            "name": "lists",
+            "summary": "\u5217\u8868",
+            "url": "classes/app-pack-oss-Tencent.html#method_lists"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Tencent\u003A\u003AdeleteAll\u0028\u0029",
+            "name": "deleteAll",
+            "summary": "\u5220\u9664\u6240\u6709",
+            "url": "classes/app-pack-oss-Tencent.html#method_deleteAll"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Tencent\u003A\u003Adownload\u0028\u0029",
+            "name": "download",
+            "summary": "\u4E0B\u8F7D\u6587\u4EF6",
+            "url": "classes/app-pack-oss-Tencent.html#method_download"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Tencent\u003A\u003A\u0024bucket",
+            "name": "bucket",
+            "summary": "",
+            "url": "classes/app-pack-oss-Tencent.html#property_bucket"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Upyun",
+            "name": "Upyun",
+            "summary": "",
+            "url": "classes/app-pack-oss-Upyun.html"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Upyun\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-pack-oss-Upyun.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Upyun\u003A\u003Aupload\u0028\u0029",
+            "name": "upload",
+            "summary": "\u4E0A\u4F20",
+            "url": "classes/app-pack-oss-Upyun.html#method_upload"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Upyun\u003A\u003Alists\u0028\u0029",
+            "name": "lists",
+            "summary": "\u5217\u8868",
+            "url": "classes/app-pack-oss-Upyun.html#method_lists"
+        },                {
+            "fqsen": "\\app\\pack\\oss\\Upyun\u003A\u003AdeleteAll\u0028\u0029",
+            "name": "deleteAll",
+            "summary": "\u5220\u9664",
+            "url": "classes/app-pack-oss-Upyun.html#method_deleteAll"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin",
+            "name": "Weixin",
+            "summary": "",
+            "url": "classes/app-pack-pay-Weixin.html"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Aget_currency\u0028\u0029",
+            "name": "get_currency",
+            "summary": "",
+            "url": "classes/app-pack-pay-Weixin.html#method_get_currency"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Aget_refund_order_num\u0028\u0029",
+            "name": "get_refund_order_num",
+            "summary": "",
+            "url": "classes/app-pack-pay-Weixin.html#method_get_refund_order_num"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Aget_app_id\u0028\u0029",
+            "name": "get_app_id",
+            "summary": "app_id",
+            "url": "classes/app-pack-pay-Weixin.html#method_get_app_id"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Ah5\u0028\u0029",
+            "name": "h5",
+            "summary": "H5\u0020\u4E0B\u5355\nH5\u652F\u4ED8\u662F\u6307\u5546\u6237\u5728\u5FAE\u4FE1\u5BA2\u6237\u7AEF\u5916\u7684\u79FB\u52A8\u7AEF\u7F51\u9875\u5C55\u793A\u5546\u54C1\u6216\u670D\u52A1\uFF0C\u7528\u6237\u5728\u524D\u8FF0\u9875\u9762\u786E\u8BA4\u4F7F\u7528\u5FAE\u4FE1\u652F\u4ED8\u65F6\uFF0C\u5546\u6237\u53D1\u8D77\u672C\u670D\u52A1\u547C\u8D77\u5FAE\u4FE1\u5BA2\u6237\u7AEF\u8FDB\u884C\u652F\u4ED8\u3002",
+            "url": "classes/app-pack-pay-Weixin.html#method_h5"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Anative\u0028\u0029",
+            "name": "native",
+            "summary": "Native\u0020\u4E0B\u5355\nNative\u652F\u4ED8\u9002\u7528\u4E8EPC\u7F51\u7AD9\u3001\u5B9E\u4F53\u5E97\u5355\u54C1\u6216\u8BA2\u5355\u3001\u5A92\u4F53\u5E7F\u544A\u652F\u4ED8\u7B49\u573A\u666F",
+            "url": "classes/app-pack-pay-Weixin.html#method_native"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Ajsapi\u0028\u0029",
+            "name": "jsapi",
+            "summary": "Native\u0020\u4E0B\u5355",
+            "url": "classes/app-pack-pay-Weixin.html#method_jsapi"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Acommon\u0028\u0029",
+            "name": "common",
+            "summary": "JSAPI\u4E0B\u5355\n\u0020native\n\u0020h5\n\u0020app",
+            "url": "classes/app-pack-pay-Weixin.html#method_common"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Arefund_query\u0028\u0029",
+            "name": "refund_query",
+            "summary": "\u0024res\u0020\u003D\u0020get_pack\u0028\u0027pay.weixin\u0027,\u0020\u0027refund_query\u0027,\u0020\u005B\n\u0020\u0020\u0020\u0020\u0024out_refund_no,\n\u005D\u0029\u003B",
+            "url": "classes/app-pack-pay-Weixin.html#method_refund_query"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Arefund\u0028\u0029",
+            "name": "refund",
+            "summary": "\u9000\u6B3E\ntotalFee\u0020\u0020\u603B\u91D1\u989D\nrefundFee\u0020\u9000\u6B3E\u91D1\u989D\nhttps\u003A\/\/easywechat.com\/6.x\/pay\/examples.html\nhttps\u003A\/\/pay.weixin.qq.com\/wiki\/doc\/apiv3\/apis\/chapter3_1_9.shtml",
+            "url": "classes/app-pack-pay-Weixin.html#method_refund"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Atransfer\u0028\u0029",
+            "name": "transfer",
+            "summary": "\u4F01\u4E1A\u4ED8\u6B3E\u5230\u96F6\u94B1\n\u0024res\u0020\u003D\u0020get_pack\u0028\u0027pay.weixin\u0027,\u0020\u0027transfer\u0027,\u0020\u005B\n\u0020\u0020\u0020\u0020\u0020\u0024openid,\n\u0020\u0020\u0020\u0020\u0020\u0024order_num,\n\u0020\u0020\u0020\u0020\u0020\u0024amount,\n\u0020\u0020\u0020\u0020\u0020\u0024desc,\n\u0020\u005D\u0029\u003B\n\u4E0D\u662F\u0020\u3010\u4F01\u4E1A\u8F6C\u5E10\u5230\u96F6\u94B1\u3011\n\u8FD9\u662F\u4E24\u4E2A\u4EA7\u54C1\uFF0C\u65B0\u5F00\u7684\u5FAE\u4FE1\u652F\u4ED8\u53EA\u6709\u0020\u4F01\u4E1A\u4ED8\u6B3E\u5230\u96F6\u94B1\u3002",
+            "url": "classes/app-pack-pay-Weixin.html#method_transfer"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Anotify\u0028\u0029",
+            "name": "notify",
+            "summary": "\u652F\u4ED8\u5F02\u6B65\u901A\u77E5\n\u0024res\u0020\u003D\u0020get_pack\u0028\u0027pay.weixin\u0027,\u0020\u0027notify\u0027,\u0020\u005B\n\u005D\u0029\u003B",
+            "url": "classes/app-pack-pay-Weixin.html#method_notify"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Aquery\u0028\u0029",
+            "name": "query",
+            "summary": "",
+            "url": "classes/app-pack-pay-Weixin.html#method_query"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Apos\u0028\u0029",
+            "name": "pos",
+            "summary": "\u626B\u7528\u6237\u4ED8\u6B3E\u7801\nhttps\u003A\/\/pay.weixin.qq.com\/wiki\/doc\/api\/micropay.php\u003Fchapter\u003D9_10\u0026index\u003D1\n\u0024res\u0020\u003D\u0020get_pack\u0028\u0027pay.weixin\u0027,\u0020\u0027pos\u0027,\u0020\u005B\u005B\n\u0020\u0020\u0020\u0027order_num\u0027\u0020\u003D\u003E\u0020\u0024order_num,\n\u0020\u0020\u0020\u0027total_fee\u0027\u0020\u003D\u003E\u0020\u0024total_fee,\n\u0020\u0020\u0020\u0027auth_code\u0027\u0020\u003D\u003E\u0020\u0024auth_code,\n\u0020\u0020\u0020\u0027body\u0027\u0020\u003D\u003E\u0020\u0024body,\n\u005D\u005D\u0029\u003B",
+            "url": "classes/app-pack-pay-Weixin.html#method_pos"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-pack-pay-Weixin.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003A\u0024returnUrl",
+            "name": "returnUrl",
+            "summary": "",
+            "url": "classes/app-pack-pay-Weixin.html#property_returnUrl"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003A\u0024cancelUrl",
+            "name": "cancelUrl",
+            "summary": "",
+            "url": "classes/app-pack-pay-Weixin.html#property_cancelUrl"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003A\u0024app",
+            "name": "app",
+            "summary": "",
+            "url": "classes/app-pack-pay-Weixin.html#property_app"
+        },                {
+            "fqsen": "\\app\\pack\\pay\\Weixin\u003A\u003A\u0024config",
+            "name": "config",
+            "summary": "",
+            "url": "classes/app-pack-pay-Weixin.html#property_config"
+        },                {
+            "fqsen": "\\app\\pack\\qrcode\\Qrcode",
+            "name": "Qrcode",
+            "summary": "",
+            "url": "classes/app-pack-qrcode-Qrcode.html"
+        },                {
+            "fqsen": "\\app\\pack\\qrcode\\Qrcode\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "\u0024res\u0020\u003D\u0020get_pack\u0028\u0027qrcode.qrcode\u0027,\u0020\u0027get\u0027,\u0020\u005B\u005B\n\u0020\u0020\u0020\u0027content\u0027\u0020\u003D\u003E\u0020\u0024content,\n\u005D\u005D\u0029\u003B",
+            "url": "classes/app-pack-qrcode-Qrcode.html#method_get"
+        },                {
+            "fqsen": "\\app\\pack\\qrcode\\Weixin",
+            "name": "Weixin",
+            "summary": "",
+            "url": "classes/app-pack-qrcode-Weixin.html"
+        },                {
+            "fqsen": "\\app\\pack\\qrcode\\Weixin\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "\u0024res\u0020\u003D\u0020get_pack\u0028\u0027qrcode.weixin\u0027,\u0020\u0027get\u0027,\u0020\u005B\u0024scene,\u0024page,\u0024width\u003D300\u005D\u0029\u003B",
+            "url": "classes/app-pack-qrcode-Weixin.html#method_get"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Aliyun\\Image",
+            "name": "Image",
+            "summary": "\u5185\u5BB9\u5B89\u5168\nhttps\u003A\/\/yundun.console.aliyun.com\/\u003Fp\u003Dcts",
+            "url": "classes/app-pack-safe-Aliyun-Image.html"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Aliyun\\Image\u003A\u003Acheck\u0028\u0029",
+            "name": "check",
+            "summary": "\u0024res\u0020\u003D\u0020pack\u0028\u0027safe.image\u0027,\u0027check\u0027,\u005B\u0024url\u005D\u0029\u003B",
+            "url": "classes/app-pack-safe-Aliyun-Image.html#method_check"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Aliyun\\Text",
+            "name": "Text",
+            "summary": "\u5185\u5BB9\u5B89\u5168\nhttps\u003A\/\/yundun.console.aliyun.com\/\u003Fp\u003Dcts",
+            "url": "classes/app-pack-safe-Aliyun-Text.html"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Aliyun\\Text\u003A\u003Acheck\u0028\u0029",
+            "name": "check",
+            "summary": "\u0024res\u0020\u003D\u0020pack\u0028\u0027safe.text\u0027,\u0027check\u0027,\u005B\u0024content\u005D\u0029\u003B",
+            "url": "classes/app-pack-safe-Aliyun-Text.html#method_check"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Aliyun\\Text\u003A\u003Adata\u0028\u0029",
+            "name": "data",
+            "summary": "",
+            "url": "classes/app-pack-safe-Aliyun-Text.html#method_data"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Baidu\\Image",
+            "name": "Image",
+            "summary": "\u5185\u5BB9\u5B89\u5168\nhttps\u003A\/\/console.bce.baidu.com\/ai\/\u0023\/ai\/antiporn\/app\/list",
+            "url": "classes/app-pack-safe-Baidu-Image.html"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Baidu\\Image\u003A\u003Acheck\u0028\u0029",
+            "name": "check",
+            "summary": "\u0024res\u0020\u003D\u0020pack\u0028\u0027safe.image\u0027,\u0027check\u0027,\u005B\u0024url\u005D\u0029\u003B",
+            "url": "classes/app-pack-safe-Baidu-Image.html#method_check"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Baidu\\Text",
+            "name": "Text",
+            "summary": "\u5185\u5BB9\u5B89\u5168\nhttps\u003A\/\/console.bce.baidu.com\/ai\/\u0023\/ai\/antiporn\/app\/list",
+            "url": "classes/app-pack-safe-Baidu-Text.html"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Baidu\\Text\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/app-pack-safe-Baidu-Text.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Baidu\\Text\u003A\u003Acheck\u0028\u0029",
+            "name": "check",
+            "summary": "\u0024res\u0020\u003D\u0020pack\u0028\u0027safe.text\u0027,\u0027check\u0027,\u005B\u0024content\u005D\u0029\u003B",
+            "url": "classes/app-pack-safe-Baidu-Text.html#method_check"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Baidu\\Text\u003A\u003Adata\u0028\u0029",
+            "name": "data",
+            "summary": "",
+            "url": "classes/app-pack-safe-Baidu-Text.html#method_data"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Baidu\\Text\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/app-pack-safe-Baidu-Text.html#property_client"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Image",
+            "name": "Image",
+            "summary": "\u5185\u5BB9\u5B89\u5168",
+            "url": "classes/app-pack-safe-Image.html"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Image\u003A\u003Acheck\u0028\u0029",
+            "name": "check",
+            "summary": "\u0024res\u0020\u003D\u0020pack\u0028\u0027safe.image\u0027,\u0027check\u0027,\u005B\u0024url\u005D\u0029\u003B",
+            "url": "classes/app-pack-safe-Image.html#method_check"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Text",
+            "name": "Text",
+            "summary": "\u5185\u5BB9\u5B89\u5168",
+            "url": "classes/app-pack-safe-Text.html"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Text\u003A\u003Acheck\u0028\u0029",
+            "name": "check",
+            "summary": "\u0024res\u0020\u003D\u0020pack\u0028\u0027safe.text\u0027,\u0027check\u0027,\u005B\u0024content\u005D\u0029\u003B",
+            "url": "classes/app-pack-safe-Text.html#method_check"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Aliyun",
+            "name": "Aliyun",
+            "summary": "",
+            "url": "classes/app-pack-sms-Aliyun.html"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Aliyun\u003A\u003Asend\u0028\u0029",
+            "name": "send",
+            "summary": "",
+            "url": "classes/app-pack-sms-Aliyun.html#method_send"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Aliyun\u003A\u003Aless\u0028\u0029",
+            "name": "less",
+            "summary": "",
+            "url": "classes/app-pack-sms-Aliyun.html#method_less"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Aliyun\u003A\u003AgetClient\u0028\u0029",
+            "name": "getClient",
+            "summary": "",
+            "url": "classes/app-pack-sms-Aliyun.html#method_getClient"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Aliyun\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/app-pack-sms-Aliyun.html#property_client"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Aliyun\u003A\u003A\u0024req",
+            "name": "req",
+            "summary": "",
+            "url": "classes/app-pack-sms-Aliyun.html#property_req"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Def",
+            "name": "Def",
+            "summary": "",
+            "url": "classes/app-pack-sms-Def.html"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Def\u003A\u003Aget_config\u0028\u0029",
+            "name": "get_config",
+            "summary": "",
+            "url": "classes/app-pack-sms-Def.html#method_get_config"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Def\u003A\u003Aless\u0028\u0029",
+            "name": "less",
+            "summary": "\u5269\u4F59\u6761\u6570",
+            "url": "classes/app-pack-sms-Def.html#method_less"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Def\u003A\u003Asend\u0028\u0029",
+            "name": "send",
+            "summary": "\u53D1\u9001\u77ED\u4FE1",
+            "url": "classes/app-pack-sms-Def.html#method_send"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Def\u003A\u003Acode\u0028\u0029",
+            "name": "code",
+            "summary": "",
+            "url": "classes/app-pack-sms-Def.html#method_code"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Tencent",
+            "name": "Tencent",
+            "summary": "",
+            "url": "classes/app-pack-sms-Tencent.html"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Tencent\u003A\u003Asend\u0028\u0029",
+            "name": "send",
+            "summary": "",
+            "url": "classes/app-pack-sms-Tencent.html#method_send"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Tencent\u003A\u003Aless\u0028\u0029",
+            "name": "less",
+            "summary": "",
+            "url": "classes/app-pack-sms-Tencent.html#method_less"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Tencent\u003A\u003AgetClient\u0028\u0029",
+            "name": "getClient",
+            "summary": "",
+            "url": "classes/app-pack-sms-Tencent.html#method_getClient"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Tencent\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/app-pack-sms-Tencent.html#property_client"
+        },                {
+            "fqsen": "\\app\\pack\\sms\\Tencent\u003A\u003A\u0024req",
+            "name": "req",
+            "summary": "",
+            "url": "classes/app-pack-sms-Tencent.html#property_req"
+        },                {
+            "fqsen": "\\app\\pack\\track\\Aliyun",
+            "name": "Aliyun",
+            "summary": "",
+            "url": "classes/app-pack-track-Aliyun.html"
+        },                {
+            "fqsen": "\\app\\pack\\track\\Aliyun\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/app-pack-track-Aliyun.html#method_get"
+        },                {
+            "fqsen": "\\app\\pack\\track\\Base",
+            "name": "Base",
+            "summary": "",
+            "url": "classes/app-pack-track-Base.html"
+        },                {
+            "fqsen": "\\app\\pack\\track\\Base\u003A\u003AparseTitle\u0028\u0029",
+            "name": "parseTitle",
+            "summary": "",
+            "url": "classes/app-pack-track-Base.html#method_parseTitle"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Rollbar",
+            "name": "Rollbar",
+            "summary": "",
+            "url": "classes/app-pack-tracker-Rollbar.html"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Rollbar\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "get_pack\u0028\u0027rollbar.rollbar\u0027,\u0027init\u0027\u0029\u003B",
+            "url": "classes/app-pack-tracker-Rollbar.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Rollbar\u003A\u003Ainfo\u0028\u0029",
+            "name": "info",
+            "summary": "",
+            "url": "classes/app-pack-tracker-Rollbar.html#method_info"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Rollbar\u003A\u003Aerror\u0028\u0029",
+            "name": "error",
+            "summary": "",
+            "url": "classes/app-pack-tracker-Rollbar.html#method_error"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Sentry",
+            "name": "Sentry",
+            "summary": "",
+            "url": "classes/app-pack-tracker-Sentry.html"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Sentry\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "get_pack\u0028\u0027rollbar.sentry\u0027,\u0027init\u0027\u0029\u003B",
+            "url": "classes/app-pack-tracker-Sentry.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Sentry\u003A\u003Ainfo\u0028\u0029",
+            "name": "info",
+            "summary": "",
+            "url": "classes/app-pack-tracker-Sentry.html#method_info"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Sentry\u003A\u003Aerror\u0028\u0029",
+            "name": "error",
+            "summary": "",
+            "url": "classes/app-pack-tracker-Sentry.html#method_error"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Tracker",
+            "name": "Tracker",
+            "summary": "",
+            "url": "classes/app-pack-tracker-Tracker.html"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Tracker\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "get_pack\u0028\u0027tracker\u0027,\u0027init\u0027\u0029\u003B",
+            "url": "classes/app-pack-tracker-Tracker.html#method_init"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Tracker\u003A\u003Ainfo\u0028\u0029",
+            "name": "info",
+            "summary": "get_pack\u0028\u0027tracker\u0027,\u0027info\u0027,\u005B\u0024msg\u005D\u0029\u003B",
+            "url": "classes/app-pack-tracker-Tracker.html#method_info"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Tracker\u003A\u003Aerror\u0028\u0029",
+            "name": "error",
+            "summary": "get_pack\u0028\u0027tracker\u0027,\u0027error\u0027,\u005B\u0024msg\u005D\u0029\u003B",
+            "url": "classes/app-pack-tracker-Tracker.html#method_error"
+        },                {
+            "fqsen": "\\app\\pack\\tracker\\Tracker\u003A\u003A\u0024class",
+            "name": "class",
+            "summary": "",
+            "url": "classes/app-pack-tracker-Tracker.html#property_class"
+        },                {
+            "fqsen": "\\app\\pack\\translate\\Niutrans",
+            "name": "Niutrans",
+            "summary": "",
+            "url": "classes/app-pack-translate-Niutrans.html"
+        },                {
+            "fqsen": "\\app\\pack\\translate\\Niutrans\u003A\u003Atranslate\u0028\u0029",
+            "name": "translate",
+            "summary": "",
+            "url": "classes/app-pack-translate-Niutrans.html#method_translate"
+        },                {
+            "fqsen": "\\app\\pack\\translate\\Niutrans\u003A\u003A\u0024convert",
+            "name": "convert",
+            "summary": "",
+            "url": "classes/app-pack-translate-Niutrans.html#property_convert"
+        },                {
+            "fqsen": "\\app\\pack\\translate\\Tencent",
+            "name": "Tencent",
+            "summary": "",
+            "url": "classes/app-pack-translate-Tencent.html"
+        },                {
+            "fqsen": "\\app\\pack\\translate\\Tencent\u003A\u003Atranslate\u0028\u0029",
+            "name": "translate",
+            "summary": "\u7FFB\u8BD1",
+            "url": "classes/app-pack-translate-Tencent.html#method_translate"
+        },                {
+            "fqsen": "\\app\\pack\\translate\\Tencent\u003A\u003A\u0024convert",
+            "name": "convert",
+            "summary": "",
+            "url": "classes/app-pack-translate-Tencent.html#property_convert"
+        },                {
+            "fqsen": "\\app\\pack\\virtual_number\\virtual_number",
+            "name": "virtual_number",
+            "summary": "",
+            "url": "classes/app-pack-virtual-number-virtual-number.html"
+        },                {
+            "fqsen": "\\app\\pack\\virtual_number\\virtual_number\u003A\u003AcreateClient\u0028\u0029",
+            "name": "createClient",
+            "summary": "",
+            "url": "classes/app-pack-virtual-number-virtual-number.html#method_createClient"
+        },                {
+            "fqsen": "\\app\\pack\\virtual_number\\virtual_number\u003A\u003Aseach\u0028\u0029",
+            "name": "seach",
+            "summary": "\u67E5\u8BE2\u865A\u62DF\u53F7\u7801\u5217\u8868",
+            "url": "classes/app-pack-virtual-number-virtual-number.html#method_seach"
+        },                {
+            "fqsen": "\\app\\pack\\virtual_number\\virtual_number\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "\u751F\u6210\u53CC\u5411\u901A\u8BDD\u53F7\u7801",
+            "url": "classes/app-pack-virtual-number-virtual-number.html#method_create"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
@@ -2031,9 +3871,109 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/app.html"
         },                {
+            "fqsen": "\\app\\components\\behaviors",
+            "name": "behaviors",
+            "summary": "",
+            "url": "namespaces/app-components-behaviors.html"
+        },                {
+            "fqsen": "\\app\\components\\grid",
+            "name": "grid",
+            "summary": "",
+            "url": "namespaces/app-components-grid.html"
+        },                {
+            "fqsen": "\\app\\components",
+            "name": "components",
+            "summary": "",
+            "url": "namespaces/app-components.html"
+        },                {
             "fqsen": "\\app\\helper",
             "name": "helper",
             "summary": "",
             "url": "namespaces/app-helper.html"
+        },                {
+            "fqsen": "\\app\\pack\\captcha",
+            "name": "captcha",
+            "summary": "",
+            "url": "namespaces/app-pack-captcha.html"
+        },                {
+            "fqsen": "\\app\\pack",
+            "name": "pack",
+            "summary": "",
+            "url": "namespaces/app-pack.html"
+        },                {
+            "fqsen": "\\app\\pack\\charts",
+            "name": "charts",
+            "summary": "",
+            "url": "namespaces/app-pack-charts.html"
+        },                {
+            "fqsen": "\\app\\pack\\map",
+            "name": "map",
+            "summary": "",
+            "url": "namespaces/app-pack-map.html"
+        },                {
+            "fqsen": "\\app\\pack\\notice",
+            "name": "notice",
+            "summary": "",
+            "url": "namespaces/app-pack-notice.html"
+        },                {
+            "fqsen": "\\app\\pack\\order_num",
+            "name": "order_num",
+            "summary": "",
+            "url": "namespaces/app-pack-order-num.html"
+        },                {
+            "fqsen": "\\app\\pack\\oss",
+            "name": "oss",
+            "summary": "",
+            "url": "namespaces/app-pack-oss.html"
+        },                {
+            "fqsen": "\\app\\pack\\pay",
+            "name": "pay",
+            "summary": "",
+            "url": "namespaces/app-pack-pay.html"
+        },                {
+            "fqsen": "\\app\\pack\\qrcode",
+            "name": "qrcode",
+            "summary": "",
+            "url": "namespaces/app-pack-qrcode.html"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Aliyun",
+            "name": "Aliyun",
+            "summary": "",
+            "url": "namespaces/app-pack-safe-aliyun.html"
+        },                {
+            "fqsen": "\\app\\pack\\safe\\Baidu",
+            "name": "Baidu",
+            "summary": "",
+            "url": "namespaces/app-pack-safe-baidu.html"
+        },                {
+            "fqsen": "\\app\\pack\\safe",
+            "name": "safe",
+            "summary": "",
+            "url": "namespaces/app-pack-safe.html"
+        },                {
+            "fqsen": "\\app\\pack\\sms",
+            "name": "sms",
+            "summary": "",
+            "url": "namespaces/app-pack-sms.html"
+        },                {
+            "fqsen": "\\app\\pack\\track",
+            "name": "track",
+            "summary": "",
+            "url": "namespaces/app-pack-track.html"
+        },                {
+            "fqsen": "\\app\\pack\\tracker",
+            "name": "tracker",
+            "summary": "",
+            "url": "namespaces/app-pack-tracker.html"
+        },                {
+            "fqsen": "\\app\\pack\\translate",
+            "name": "translate",
+            "summary": "",
+            "url": "namespaces/app-pack-translate.html"
+        },                {
+            "fqsen": "\\app\\pack\\virtual_number",
+            "name": "virtual_number",
+            "summary": "",
+            "url": "namespaces/app-pack-virtual-number.html"
         }            ]
 );
